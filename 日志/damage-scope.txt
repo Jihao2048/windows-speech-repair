@@ -1,0 +1,60 @@
+﻿=== DAMAGE SCOPE SCAN 2026-09-26T10:34:33 ===
+
+=== 1. SystemApps\LKG folders ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy      files=0      size=0  <== EMPTY!
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy     files=0      size=0  <== EMPTY!
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy          files=0      size=0  <== EMPTY!
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy          files=0      size=0  <== EMPTY!
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy        files=0      size=0  <== EMPTY!
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy              files=0      size=0  <== EMPTY!
+
+=== 2. SystemApps folders with speech/input/critical names ===
+  Microsoft.AIFabric.CBS.1.6_8wekyb3d8bbwe                     files=48     size=8,423,459
+  Microsoft.AsyncTextService_8wekyb3d8bbwe                     files=10     size=222,245
+  Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe                          files=9      size=8,370,247
+  Microsoft.Windows.AugLoop.CBS_8wekyb3d8bbwe                  files=6      size=2,148,482
+  microsoft.windows.narratorquickstart_8wekyb3d8bbwe           files=235    size=1,614,109
+  Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy      files=12     size=4,503,631
+  Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe                files=112    size=64,018,081
+  Microsoft.WindowsAppRuntime.vNext.CBS_8wekyb3d8bbwe          files=138    size=108,224,123
+  MicrosoftWindows.Client.AIX_cw5n1h2txyewy                    files=17     size=2,173,014
+  MicrosoftWindows.Client.CBS_cw5n1h2txyewy                    files=1086   size=307,982,397
+  MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy                 files=212    size=30,628,674
+  MicrosoftWindows.Client.Core_cw5n1h2txyewy                   files=590    size=205,060,393
+  ShellExperienceHost_cw5n1h2txyewy                            files=61     size=42,064,865
+  Windows.CBSPreview_cw5n1h2txyewy                             files=15     size=601,456
+
+=== 3. All SystemApps folders (empty ones only) ===
+  EMPTY: LKG
+  total empty SystemApps folders: 1
+
+=== 4. WindowsApps speech packages content ===
+  MicrosoftWindows.Speech.zh-CN.1_1.0.23.0_x64__cw5n1h2txyewy            files=26 size=158,655,810
+  MicrosoftWindows.Voice.zh-CN.XiaoxiaoHD.1_1.0.1.0_x64__cw5n1h2txyewy   files=30 size=379,542,531
+
+=== 5. WinSxS speech component payloads available for restore ===
+  amd64_microsoft-windows-speechcommon-onecore_31bf3856ad364e35_10.0.26100.8521_none_0f121cdfcdd12de5
+     files=6 size=5,506,788
+       sapi_extensions.dll                                212,992
+       sapi_onecore.dll                                 4,468,736
+       SpeechModelDownload.exe                            217,088
+  amd64_microsoft-windows-speechcommonnoia64_31bf3856ad364e35_10.0.26100.1_none_ff9d2f602c1cc7f1
+     files=1 size=40,960
+       sapisvr.exe                                         40,960
+  amd64_microsoft-windows-speechcommon_31bf3856ad364e35_10.0.26100.8521_none_71bb4f0182b7f72f
+     files=2 size=1,658,335
+       sapi.dll                                         1,515,520
+  wow64_microsoft-windows-speechcommon-onecore_31bf3856ad364e35_10.0.26100.8521_none_1966c7320231efe0
+     files=4 size=4,864,225
+       sapi_onecore.dll                                 4,108,800
+       SpeechModelDownload.exe                            162,304
+  wow64_microsoft-windows-speechcommon_31bf3856ad364e35_10.0.26100.8521_none_7c0ff953b718b92a
+     files=2 size=1,461,682
+       sapi.dll                                         1,293,824
+
+=== 6. SpeechRuntime.exe in WinSxS (search all) ===
+  hits: 2
+    C:\Windows\WinSxS\amd64_microsoft-onecore-s..chservice-component_31bf3856ad364e35_10.0.26100.8521_none_4956195b3bec2813\SpeechRuntime.exe  (364,544 bytes)
+    C:\Windows\WinSxS\amd64_microsoft-onecore-s..chservice-component_31bf3856ad364e35_10.0.26100.8521_none_4956195b3bec2813\r\SpeechRuntime.exe  (58,604 bytes)
+
+=== DONE 2026-09-26T10:35:05 ===

@@ -1,0 +1,96 @@
+﻿=== ELEVATED READ-ONLY DIAGNOSTIC 2026-09-26T10:33:34 ===
+
+=== 1. Speech related Windows capabilities ===
+  Language.Speech~~~da-DK~0.0.1.0  -> NotPresent
+  Language.Speech~~~de-DE~0.0.1.0  -> NotPresent
+  Language.Speech~~~en-AU~0.0.1.0  -> NotPresent
+  Language.Speech~~~en-CA~0.0.1.0  -> NotPresent
+  Language.Speech~~~en-GB~0.0.1.0  -> NotPresent
+  Language.Speech~~~en-IN~0.0.1.0  -> NotPresent
+  Language.Speech~~~en-US~0.0.1.0  -> NotPresent
+  Language.Speech~~~es-ES~0.0.1.0  -> NotPresent
+  Language.Speech~~~es-MX~0.0.1.0  -> NotPresent
+  Language.Speech~~~fr-CA~0.0.1.0  -> NotPresent
+  Language.Speech~~~fr-FR~0.0.1.0  -> NotPresent
+  Language.Speech~~~it-IT~0.0.1.0  -> NotPresent
+  Language.Speech~~~ja-JP~0.0.1.0  -> NotPresent
+  Language.Speech~~~pt-BR~0.0.1.0  -> NotPresent
+  Language.Speech~~~zh-CN~0.0.1.0  -> Installed
+  Language.Speech~~~zh-HK~0.0.1.0  -> NotPresent
+  Language.Speech~~~zh-TW~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ar-EG~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ar-SA~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~bg-BG~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ca-ES~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~cs-CZ~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~da-DK~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~de-AT~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~de-CH~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~de-DE~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~el-GR~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~en-AU~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~en-CA~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~en-GB~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~en-IE~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~en-IN~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~en-US~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~es-ES~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~es-MX~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~fi-FI~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~fr-CA~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~fr-CH~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~fr-FR~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~he-IL~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~hi-IN~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~hr-HR~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~hu-HU~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~id-ID~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~it-IT~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ja-JP~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ko-KR~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ms-MY~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~nb-NO~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~nl-BE~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~nl-NL~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~pl-PL~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~pt-BR~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~pt-PT~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ro-RO~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ru-RU~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~sk-SK~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~sl-SI~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~sv-SE~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~ta-IN~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~th-TH~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~tr-TR~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~vi-VN~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~zh-CN~0.0.1.0  -> Installed
+  Language.TextToSpeech~~~zh-HK~0.0.1.0  -> NotPresent
+  Language.TextToSpeech~~~zh-TW~0.0.1.0  -> NotPresent
+
+=== 2. Language capabilities for zh-CN ===
+  Language.Basic~~~zh-CN~0.0.1.0  -> Installed
+  Language.Handwriting~~~zh-CN~0.0.1.0  -> Installed
+  Language.OCR~~~zh-CN~0.0.1.0  -> Installed
+  Language.Speech~~~zh-CN~0.0.1.0  -> Installed
+  Language.TextToSpeech~~~zh-CN~0.0.1.0  -> Installed
+
+=== 3. ComponentDetect owned paths for speech components ===
+  matching components: 3
+  --- amd64_netfx4-aspnet_isapi_dll_b03f5f7f11d50a3a_4.0.0.0_none_62a6605ba4e8f247  (owned paths: 0)
+  --- amd64_system.speech_31bf3856ad364e35_4.0.0.0_none_971798ca13796cdd  (owned paths: 0)
+  --- x86_netfx4-aspnet_isapi_dll_b03f5f7f11d50a3a_4.0.0.0_none_aa539732b9651b4d  (owned paths: 0)
+
+=== 4. Speech related event logs present ===
+
+=== 5. Recent errors from System log (last 3 days) mentioning speech/input/audio ===
+
+=== 6. Speech language pack Appx full state ===
+  Microsoft.XboxSpeechToTextOverlay  1.97.17002.0  Status=Ok  Install=.
+  MicrosoftWindows.LKG.SpeechRuntime  1000.26100.3775.0  Status=Ok  Install=C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+  MicrosoftWindows.Voice.zh-CN.XiaoxiaoHD.1  1.0.1.0  Status=Ok  Install=.
+  MicrosoftWindows.Speech.zh-CN.1  1.0.23.0  Status=Ok  Install=.
+
+=== 7. Windows install media available for repair source? ===
+
+=== DIAGNOSTIC DONE 2026-09-26T10:33:40 ===

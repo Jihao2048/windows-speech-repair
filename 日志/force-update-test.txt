@@ -1,0 +1,55 @@
+﻿=== FORCE UPDATE TEST 2026-09-26T11:02:42 ===
+
+  manifest: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy\appxmanifest.xml exists: True
+
+=== Variant 1: -Register with -ForceUpdateFromAnyVersion ===
+  ForceUpdate : FAILED -> 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+=== Variant 2: + -ForceTargetApplicationShutdown ===
+  ForceUpdate+Shutdown : FAILED -> 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+=== Variant 3: -RegisterByFamilyName with -ForceUpdateFromAnyVersion ===
+  FamilyName+Force : FAILED -> 无法使用指定的命名参数解析参数集。
+
+=== Variant 4: higher version + -ForceUpdateFromAnyVersion ===
+  Bumped+Force : FAILED -> 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+  manifest restored to original version
+
+=== Registration state ===
+  LKG for current user: 0
+
+=== All-users state ===
+  MicrosoftWindows.LKG.AccountsService 1000.26100.3775.0 Ok
+     Installed
+     Installed
+     Installed
+     Installed(pending removal)
+  MicrosoftWindows.LKG.DesktopSpotlight 1000.26100.3775.0 Ok
+     Installed
+     Installed
+     Installed
+     Installed(pending removal)
+  MicrosoftWindows.LKG.IrisService 1000.26100.3775.0 Ok
+     Installed
+     Installed
+     Installed
+     Installed(pending removal)
+  MicrosoftWindows.LKG.RulesEngine 1000.26100.3775.0 Ok
+     Installed
+     Installed
+     Installed
+     Installed(pending removal)
+  MicrosoftWindows.LKG.SpeechRuntime 1000.26100.3775.0 Ok
+     Installed
+     Installed
+     Installed
+  MicrosoftWindows.LKG.TwinSxS 1000.26100.4061.0 Ok
+     Installed
+     Installed
+     Installed
+     Installed
+
+=== If registered: restart TextInputHost ===
+  TextInputHost pid 6936
+
+=== DONE 2026-09-26T11:03:01 ===

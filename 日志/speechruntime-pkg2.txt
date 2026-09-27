@@ -1,0 +1,51 @@
+﻿=== SPEECH RUNTIME PACKAGE STATE 2026-09-26T10:34:11 ===
+
+=== 1. Package folder: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy ===
+  exists: True
+
+=== 2. All-users state of speech/speechruntime packages ===
+  MicrosoftWindows.LKG.SpeechRuntime  1000.26100.3775.0  Status=Ok
+     InstallLocation: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+     PackageFullName: MicrosoftWindows.LKG.SpeechRuntime_1000.26100.3775.0_x64__cw5n1h2txyewy
+     IsFramework=False  NonRemovable=True  SignatureKind=System
+     PackageUserInformation entries: 4
+        Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId -> Installed
+        Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId -> Installed
+        Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId -> Installed
+        Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId -> Installed(pending removal)
+
+=== 3. Current user state (all users not requested) ===
+  current-user SpeechRuntime packages: 0
+
+=== 4. LKG folder listing ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy
+
+=== 5. SpeechRuntime.exe anywhere on disk ===
+  C:\Windows\System32\SpeechRuntime.exe -> False
+  C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy\SpeechRuntime.exe -> False
+  found copies under SystemApps: 0
+
+=== 6. Windows Update service state (WUB effect) ===
+  wuauserv           Stopped    Disabled
+  BITS               Stopped    Manual
+  UsoSvc             Running    Automatic
+  TrustedInstaller   Running    Manual
+  msiserver          Stopped    Manual
+  wuauserv registry Start = 4  (4=Disabled, 3=Manual, 2=Automatic)
+-- HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate exists: True
+     DisableWindowsUpdateAccess = 1
+     DisableOSUpgrade = 1
+     DoNotConnectToWindowsUpdateInternetLocations = 1
+     WUServer = .
+     WUStatusServer = .
+     UpdateServiceUrlAlternate = .
+-- HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU exists: True
+     NoAutoUpdate = 1
+     UseWUServer = 1
+
+=== DONE 2026-09-26T10:34:12 ===

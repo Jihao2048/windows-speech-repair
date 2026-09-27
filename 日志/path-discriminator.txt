@@ -1,0 +1,78 @@
+﻿=== PATH DISCRIMINATOR TEST 2026-09-26T10:58:20 ===
+
+=== 1. Folder attributes (reparse point?) ===
+  C:\Windows\SystemApps\LKG
+     attributes: Directory
+     is reparse point: False
+     link target: System.Collections.Generic.List`1[System.String]
+  C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+     attributes: Directory
+     is reparse point: False
+     link target: System.Collections.Generic.List`1[System.String]
+
+=== 2. Owner comparison (ours vs healthy package) ===
+  --- C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy\Microsoft.CognitiveServices.Speech.core.dll
+      驱动器 C 中的卷没有标签。
+      卷的序列号是 7A1D-A10D
+     
+      C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 的目录
+     
+     2025/03/07  03:45         2,305,080 BUILTIN\Administrators Microsoft.CognitiveServices.Speech.core.dll
+                    1 个文件      2,305,080 字节
+                    0 个目录 93,328,334,848 可用字节
+  --- C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+      驱动器 C 中的卷没有标签。
+      卷的序列号是 7A1D-A10D
+     
+      C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy 的目录
+     
+     2026/06/13  13:10    <DIR>          NT SERVICE\TrustedInsta.
+     2026/05/17  12:21    <DIR>          NT AUTHORITY\SYSTEM    ..
+     2026/04/18  17:47    <DIR>          NT SERVICE\TrustedInstaAccountControl
+     2026/06/12  15:52            23,040 NT SERVICE\TrustedInstaAccountControl.AOT.dll
+     2026/05/17  12:21    <DIR>          NT SERVICE\TrustedInstaAccountDialog
+     2026/06/12  15:52            23,040 NT SERVICE\TrustedInstaAccountDialog.AOT.dll
+     2026/06/12  15:52           493,056 NT SERVICE\TrustedInstaAccountsService.dll
+  our dll owner line:
+      驱动器 C 中的卷没有标签。
+      卷的序列号是 7A1D-A10D
+     
+      C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 的目录
+     
+     2025/03/07  03:45         2,305,080 BUILTIN\Administrators Microsoft.CognitiveServices.Speech.core.dll
+                    1 个文件      2,305,080 字节
+                    0 个目录 93,328,334,848 可用字节
+  healthy dll owner line:
+      驱动器 C 中的卷没有标签。
+      卷的序列号是 7A1D-A10D
+     
+      C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy 的目录
+     
+
+=== 3. Copy package to a neutral location and try registering there ===
+  copied 22 files to C:\hidisp\testpkg\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+  manifest path: C:\hidisp\testpkg\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy\AppxManifest.xml exists: True
+  NEUTRAL-PATH REGISTER FAILED: 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0008-3bb0-62885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0008-3bb0-62885c4ddd01
+
+  --> the package content itself is the problem
+
+=== 4. Try registering from LKG folder once more (sanity) ===
+  LKG REGISTER FAILED: 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-000a-66bd-64885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-000a-66bd-64885c4ddd01
+
+
+=== 5. State after ===
+  LKG for current user: 0
+
+=== 6. Also compare the appxmanifest header bytes (BOM? encoding?) ===
+  C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy\AppxManifest.xml
+     size=10696  first16bytes=3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31
+  C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\appxmanifest.xml
+     size=272632  first16bytes=3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31
+
+=== DONE 2026-09-26T10:58:21 ===

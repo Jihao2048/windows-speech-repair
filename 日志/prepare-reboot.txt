@@ -1,0 +1,45 @@
+﻿=== PREPARE FOR REBOOT 2026-09-26T11:02:14 ===
+
+=== 1. Restore SpeechRuntime folder to exact image state ===
+  restored appxsignature.p7x
+  restored appxblockmap.xml
+  manifest renamed back to lowercase (matches OS norm)
+     [appxblockmap.xml]
+     [appxmanifest.xml]
+     [appxsignature.p7x]
+
+=== 2. Verify all six LKG folders match the image content counts ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy         image=13   system=13
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy        image=21   system=21
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy             image=13   system=13
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy             image=12   system=12
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy           image=22   system=22
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy                 image=12   system=12
+
+=== 3. Set ownership to TrustedInstaller (match healthy system apps) ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy -> 已成功处理 16 个文件; 处理 1 个文件时失败
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy -> 已成功处理 27 个文件; 处理 1 个文件时失败
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy -> 已成功处理 16 个文件; 处理 1 个文件时失败
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy -> 已成功处理 15 个文件; 处理 1 个文件时失败
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy -> 已成功处理 26 个文件; 处理 1 个文件时失败
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy -> 已成功处理 15 个文件; 处理 1 个文件时失败
+
+=== 4. Are the LKG packages in the provisioned (inbox) list? ===
+  Microsoft.XboxSpeechToTextOverlay  2024.401.618.0  .
+
+=== 5. Characterize -DisableDevelopmentMode (minimal package test) ===
+  WITH -DisableDevelopmentMode: FAILED -> 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+  WITHOUT flag: SUCCEEDED
+
+=== 6. Clean up test package ===
+  removed test package
+
+=== 7. Summary of LKG folder state ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy         files=13   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy        files=21   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy             files=13   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy             files=12   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy           files=22   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy                 files=12   manifest=[appxmanifest.xml]
+
+=== DONE 2026-09-26T11:02:17 ===

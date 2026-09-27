@@ -1,0 +1,67 @@
+﻿=== FINAL REGISTRATION (no -DisableDevelopmentMode) 2026-09-26T10:59:37 ===
+
+=== 1. Clean up the minimal test package ===
+  removed Minimal.TestApp
+
+=== 2. Register MicrosoftWindows.LKG.SpeechRuntime (WITHOUT -DisableDevelopmentMode) ===
+  manifest: C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy\AppxManifest.xml exists: True
+  REGISTER FAILED: 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.SpeechRuntime，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0002-dc2c-63885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0002-dc2c-63885c4ddd01
+
+
+=== 3. Registration state ===
+  LKG packages for current user: 0
+
+=== 4. Restore the other 5 LKG packages as well ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy -> files=13
+     register FAILED: 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.AccountsService，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0007-2bfb-6a885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0007-2bfb-6a885c4ddd01
+
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy -> files=21
+     register FAILED: 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.DesktopSpotlight，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0006-1df4-68885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0006-1df4-68885c4ddd01
+
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy -> files=13
+     register FAILED: 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.IrisService，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0004-1d84-65885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0004-1d84-65885c4ddd01
+
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy -> files=12
+     register FAILED: 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.RulesEngine，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0000-ca46-60885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0000-ca46-60885c4ddd01
+
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy -> files=12
+     register FAILED: 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.TwinSxS，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-000a-7866-65885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-000a-7866-65885c4ddd01
+
+
+=== 5. Final state ===
+  LKG packages for current user: 0
+
+=== 6. Restart TextInputHost so voice typing picks up the engine ===
+  TextInputHost restarted pid 9836
+
+=== 7. Verify the engine files are present ===
+  SpeechRuntime.exe -> False
+  Microsoft.CognitiveServices.Speech.extension.embedded.sr.runtime.dll -> True
+  resources.pri -> True
+  Assets\StoreLogo.png -> True
+
+=== DONE 2026-09-26T11:00:12 ===

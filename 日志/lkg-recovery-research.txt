@@ -1,0 +1,27 @@
+﻿=== 1. speechservice component folder full content ===
+  path exists: True
+    r                                                   1  DIR
+    privacy-icon.png                                1,615  FILE
+    SpeechBrokeredApi.dll                         172,032  FILE
+    SpeechRuntime.exe                             364,544  FILE
+    SpeechServiceWinRTApi.ProxyStub.dll            90,112  FILE
+    toast-hero-image.png                           16,211  FILE
+    SpeechBrokeredApi.dll                          25,648  FILE
+    SpeechRuntime.exe                              58,604  FILE
+    SpeechServiceWinRTApi.ProxyStub.dll             2,798  FILE
+
+=== 2. other copies of the LKG SpeechRuntime package on disk ===
+  matching dirs: 1
+    C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+  WindowsApps speech dirs: 0
+
+=== 3. Appx staged registration for LKG packages ===
+  HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Applications\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy exists: False
+  HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\EndOfStagedPackages\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy exists: False
+  HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Applications\MicrosoftWindows.Speech.zh-CN.1_cw5n1h2txyewy exists: False
+  HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\EndOfStagedPackages\MicrosoftWindows.Speech.zh-CN.1_cw5n1h2txyewy exists: False
+
+=== 4. AppxAllUserStore Applications keys matching LKG ===
+
+=== 5. installed store programs matching SpeechRuntime ===
+  WMI error: 拒绝访问 

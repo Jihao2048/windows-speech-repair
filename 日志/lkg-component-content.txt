@@ -1,0 +1,16 @@
+﻿=== full content of C:\Windows\WinSxS\amd64_userexperience-lkg_31bf3856ad364e35_10.0.26100.1742_none_3c72368675eae921 ===
+  \LKG.AccountsService                                                    1  DIR
+  \LKG.IrisService                                                        1  DIR
+  \LKG.AccountsService\AccountsService.dll                          157,658  FILE
+  \LKG.AccountsService\AccountsService.winmd                          6,684  FILE
+  \LKG.AccountsService\appxblockmap.xml                                 405  FILE
+  \LKG.AccountsService\appxmanifest.xml                               2,464  FILE
+  \LKG.AccountsService\resources.pri                                  3,328  FILE
+  \LKG.IrisService\appxblockmap.xml                                     405  FILE
+  \LKG.IrisService\appxmanifest.xml                                   2,502  FILE
+  \LKG.IrisService\IrisService.dll                                  298,306  FILE
+  \LKG.IrisService\IrisService.winmd                                  5,840  FILE
+  \LKG.IrisService\resources.pri                                      3,296  FILE
+
+=== other userexperience-lkg component versions ===
+  amd64_userexperience-lkg_31bf3856ad364e35_10.0.26100.1742_none_3c72368675eae921

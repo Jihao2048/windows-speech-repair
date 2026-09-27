@@ -1,0 +1,39 @@
+﻿=== MINIMAL PACKAGE TEST + LKG HISTORY 2026-09-26T10:59:18 ===
+
+=== A. Create a minimal, brand-new test package and try to register it ===
+  created C:\hidisp\minimal\Minimal.TestApp_cw5n1h2txyewy\AppxManifest.xml
+  MINIMAL REGISTER FAILED: 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0006-8bbb-68885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0006-8bbb-68885c4ddd01
+
+  --> loose/unpacked registration appears BROKEN on this machine
+
+=== B. Try registering the minimal package WITHOUT -DisableDevelopmentMode ===
+  REGISTER (no flag) SUCCEEDED
+
+=== C. History of LKG.SpeechRuntime in the deployment log ===
+  [2026-09-26 10:59:15] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 ForceApplicationShutdownOption 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  [2026-09-26 10:58:44] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 ForceApplicationShutdownOption 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  [2026-09-26 10:58:16] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 ForceApplicationShutdownOption 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  [2026-09-26 10:57:52] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 ForceApplicationShutdownOption 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  [2026-09-26 10:57:24] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 ForceApplicationShutdownOption 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  [2026-09-26 10:56:17] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 ForceApplicationShutdownOption 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  [2026-09-26 10:55:52] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 0 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  [2026-09-26 10:55:49] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 ForceApplicationShutdownOption 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  [2026-09-26 10:39:17] lvl=警告 id=486 :: 通过 API Package name from manifest path: MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy; Package family name: MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy; Package: MicrosoftWindows.LKG.SpeechRuntime_1000.26100.3775.0_x64__cw5n1h2txyewy, Users: S-1-5-18 2
+  [2026-09-26 10:39:16] lvl=信息 id=603 :: 已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 0 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+
+=== D. Which local users exist (SID map) ===
+  Administrator             .
+  .            .
+  Guest                     .
+  .                 .
+  Pad                       .
+  .        .
+
+=== E. State ===
+  matching: 1
+     Minimal.TestApp 1.0.0.0 Ok
+
+=== DONE 2026-09-26T10:59:21 ===

@@ -1,0 +1,164 @@
+﻿=== WinSxS backups of missing files ===
+sapi.dll -> 4 hit(s)
+    C:\Windows\WinSxS\amd64_microsoft-windows-speechcommon_31bf3856ad364e35_10.0.26100.8521_none_71bb4f0182b7f72f\sapi.dll
+    C:\Windows\WinSxS\amd64_microsoft-windows-speechcommon_31bf3856ad364e35_10.0.26100.8521_none_71bb4f0182b7f72f\r\sapi.dll
+    C:\Windows\WinSxS\wow64_microsoft-windows-speechcommon_31bf3856ad364e35_10.0.26100.8521_none_7c0ff953b718b92a\sapi.dll
+    C:\Windows\WinSxS\wow64_microsoft-windows-speechcommon_31bf3856ad364e35_10.0.26100.8521_none_7c0ff953b718b92a\r\sapi.dll
+SpeechRuntime.exe -> 2 hit(s)
+    C:\Windows\WinSxS\amd64_microsoft-onecore-s..chservice-component_31bf3856ad364e35_10.0.26100.8521_none_4956195b3bec2813\SpeechRuntime.exe
+    C:\Windows\WinSxS\amd64_microsoft-onecore-s..chservice-component_31bf3856ad364e35_10.0.26100.8521_none_4956195b3bec2813\r\SpeechRuntime.exe
+sapisvr.exe -> 1 hit(s)
+    C:\Windows\WinSxS\amd64_microsoft-windows-speechcommonnoia64_31bf3856ad364e35_10.0.26100.1_none_ff9d2f602c1cc7f1\sapisvr.exe
+SpeechUX -> 0 hit(s)
+
+=== SystemApps listing ===
+  LKG
+  Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy
+  Microsoft.AccountsControl_cw5n1h2txyewy
+  Microsoft.AIFabric.CBS.1.6_8wekyb3d8bbwe
+  Microsoft.AsyncTextService_8wekyb3d8bbwe
+  Microsoft.BioEnrollment_cw5n1h2txyewy
+  microsoft.creddialoghost_cw5n1h2txyewy
+  Microsoft.ECApp_8wekyb3d8bbwe
+  Microsoft.LockApp_cw5n1h2txyewy
+  Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe
+  Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe
+  Microsoft.Win32WebViewHost_cw5n1h2txyewy
+  Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy
+  Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy
+  Microsoft.Windows.AppResolverUX_cw5n1h2txyewy
+  Microsoft.Windows.AssignedAccessLockApp_cw5n1h2txyewy
+  Microsoft.Windows.AugLoop.CBS_8wekyb3d8bbwe
+  Microsoft.Windows.CapturePicker_cw5n1h2txyewy
+  Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy
+  Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy
+  Microsoft.Windows.FileExplorer_cw5n1h2txyewy
+  Microsoft.Windows.FilePicker_cw5n1h2txyewy
+  microsoft.windows.narratorquickstart_8wekyb3d8bbwe
+  Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy
+  Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy
+  Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy
+  Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy
+  Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy
+  Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy
+  Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
+  Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy
+  Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe
+  Microsoft.WindowsAppRuntime.vNext.CBS_8wekyb3d8bbwe
+  Microsoft.XboxGameCallableUI_cw5n1h2txyewy
+  MicrosoftWindows.Client.AIX_cw5n1h2txyewy
+  MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+  MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy
+  MicrosoftWindows.Client.Core_cw5n1h2txyewy
+  MicrosoftWindows.Client.FileExp_cw5n1h2txyewy
+  MicrosoftWindows.Client.OOBE_cw5n1h2txyewy
+  MicrosoftWindows.Client.Photon_cw5n1h2txyewy
+  MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy
+  ParentalControls_cw5n1h2txyewy
+  Shared
+  ShellExperienceHost_cw5n1h2txyewy
+  SxS
+  Windows.CBSPreview_cw5n1h2txyewy
+  Windows.PrintDialog_cw5n1h2txyewy
+
+=== TextInputHost / InputExperience locations ===
+C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe exists: True
+C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy exists: True
+
+=== Speech_OneCore content ===
+  common
+  Engines
+  VoiceActivation
+  Common
+  Engines
+  SpeechUX
+
+=== HKCU speech settings (full walk) ===
+-- HKCU:\Software\Microsoft\Speech_OneCore exists: True
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\AppLexicons
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\AppLexicons\Tokens
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\AudioInput
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\AudioInput\TokenEnums
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\AudioInput\TokenEnums\MMAudioIn
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\AudioOutput
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\AudioOutput\TokenEnums
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\AudioOutput\TokenEnums\MMAudioOut
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\Chinese
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\Chinese\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\English
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\English\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\French
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\French\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\German
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\German\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\Japanese
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\Japanese\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\Spanish
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\Spanish\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\TraditionalChinese
+   HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Isolated\01PUWlN_mlWRYzNIHh0V1ySc1SwQn9CghfSB-bbIbvI\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\PhoneConverters\Tokens\TraditionalChinese\Attributes
+-- HKCU:\Software\Microsoft\Speech exists: True
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AppLexicons
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{206f26c1-abc3-4e28-ae98-acf5266a11c4}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{206f26c1-abc3-4e28-ae98-acf5266a11c4}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{29fc3d6a-8a00-490f-8068-4d53397ea1d9}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{29fc3d6a-8a00-490f-8068-4d53397ea1d9}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{64c7a4a8-354d-4997-92ef-286fe3e3ae96}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{64c7a4a8-354d-4997-92ef-286fe3e3ae96}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{75d7108b-33bf-47cc-9ce1-9359535d07e3}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{75d7108b-33bf-47cc-9ce1-9359535d07e3}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{7c9d787d-0c03-446b-a810-4df29f8235ce}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{7c9d787d-0c03-446b-a810-4df29f8235ce}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{9a158a9a-b4e8-43bf-ac35-96ad4e925db1}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{9a158a9a-b4e8-43bf-ac35-96ad4e925db1}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{ad30ccfe-7891-41da-a15f-e216d88a0a4d}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{ad30ccfe-7891-41da-a15f-e216d88a0a4d}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{dbc541d4-30f8-4546-a436-6628db49cb96}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{dbc541d4-30f8-4546-a436-6628db49cb96}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{f4624189-f66a-4283-b613-e05feb26cfd5}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\AudioOutput\TokenEnums\MMAudioOut\{0.0.0.00000000}.{f4624189-f66a-4283-b613-e05feb26cfd5}\Attributes
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\CurrentUserLexicon
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\CurrentUserLexicon\AppLexicons
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\CurrentUserLexicon\{C9E37C15-DF92-4727-85D6-72E5EEB6995A}
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\CurrentUserLexicon\{C9E37C15-DF92-4727-85D6-72E5EEB6995A}\Files
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\PhoneConverters
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\Preferences
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\Preferences\AppCompatDisableDictation
+   HKEY_CURRENT_USER\Software\Microsoft\Speech\Preferences\AppCompatDisableMSAA
+-- HKCU:\Software\Microsoft\Input exists: True
+   HKEY_CURRENT_USER\Software\Microsoft\Input\EC
+   HKEY_CURRENT_USER\Software\Microsoft\Input\Locales
+   HKEY_CURRENT_USER\Software\Microsoft\Input\Personalization
+   HKEY_CURRENT_USER\Software\Microsoft\Input\Settings
+   HKEY_CURRENT_USER\Software\Microsoft\Input\TIPC
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override\{03b5835f-f03c-411b-9ce2-aa23e1171e36}
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override\{531FDEBF-9B4C-4A43-A2AA-960E8FCDC732}
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override\{531FDEBF-9B4C-4A43-A2AA-960E8FCDC732}\{4BDF9F03-C7D3-11D4-B2AB-0080C882687E}
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override\{531FDEBF-9B4C-4A43-A2AA-960E8FCDC732}\{6024B45F-5C54-11D4-B921-0080C882687E}
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override\{6a498709-e00b-4c45-a018-8f9e4081ae40}
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override\{81d4e9c9-1d3b-41bc-9e6c-4b40bf79e35e}
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override\{A028AE76-01B1-46C2-99C4-ACD9858AE02F}
+   HKEY_CURRENT_USER\Software\Microsoft\Input\tsf\tsf3override\{B115690A-EA02-48D5-A231-E3578D2FDF80}
+   HKEY_CURRENT_USER\Software\Microsoft\Input\TypingInsights
+
+=== Voice typing / Voice access related Appx ===
+  Microsoft.XboxSpeechToTextOverlay  1.97.17002.0  Status=Ok
+  MicrosoftWindows.Voice.zh-CN.XiaoxiaoHD.1  1.0.1.0  Status=Ok
+  Microsoft.SecHealthUI  1000.29554.1001.0  Status=Ok
+  MicrosoftWindows.Speech.zh-CN.1  1.0.23.0  Status=Ok
+  MicrosoftWindows.Client.CBS  1000.26100.315.0  Status=Ok
+  MicrosoftWindows.Client.CoreAI  1000.26100.8655.0  Status=Ok
+  MicrosoftWindows.Client.Core  1000.26100.94.0  Status=Ok

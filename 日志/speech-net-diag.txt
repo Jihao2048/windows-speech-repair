@@ -1,0 +1,98 @@
+﻿=== HOSTS FILE ===
+  (active entries: 0)
+
+=== PROXY SETTINGS ===
+  ProxyEnable = 0
+  ProxyServer = http://127.0.0.1:12334
+  AutoConfigURL = 
+  [HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings] ProxyEnable= ProxyServer= AutoConfigURL=
+  [HKLM:\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxyEnable= ProxyServer= AutoConfigURL=
+  --- netsh winhttp ---
+  Current WinHTTP proxy settings:
+      Direct access (no proxy server).
+
+=== DNS + TCP to speech endpoints ===
+  speech.platform.bing.com -> 150.171.28.10, 150.171.27.10
+     TCP 443: OK
+  s2s.speech.microsoft.com -> DNS FAIL: Exception calling "GetHostAddresses" with "1" argument(s): "No such host is known"
+     TCP 443: FAIL Exception calling "EndConnect" with "1" argument(s): "不知道这样的主机。"
+  www.microsoft.com -> 23.35.101.225
+     TCP 443: OK
+  login.live.com -> 40.126.35.145, 40.126.35.81, 40.126.35.150, 20.190.163.19, 40.126.35.87, 40.126.35.18, 20.190.163.18, 40.126.35.80
+     TCP 443: OK
+
+=== ONLINE SPEECH RECOGNITION CONSENT ===
+-- HKCU:\Software\Microsoft\Speech_OneCore\Settings\PrivacyPolicy exists: False
+-- HKLM:\SOFTWARE\Microsoft\Speech_OneCore\Settings\PrivacyPolicy exists: False
+-- HKLM:\SOFTWARE\Microsoft\Speech_OneCore\Settings exists: True
+     AccSpeech = 0
+     AnnounceSMS = 3
+     AudioReadback = 1
+     NetworkConnection = 1
+     OverridePhoneLock = 1
+     PrivacyPolicyAcceptance = 2
+     PrivacyPolicyDeclinedCount = 0
+     PrivacyPolicyMaxDeclinedCount = 3
+     PrivacyPolicyVersion = 2
+     SpeechOutVolume = 3865503334
+     VoiceLanguage = 1033
+-- HKCU:\Software\Microsoft\Speech_OneCore\Settings exists: True
+
+=== MICROPHONE CONSENT STORE ===
+  Global microphone access = Allow
+     1F8B0F94.122165AE053F_j2p0p5q0044a6 = Prompt
+     1F8B0F94.122165AE053F_yc15719j0dst8 = Prompt
+     E046963F.LenovoCompanion_k1h2ywk1493x8 = Prompt
+     E046963F.LenovoSettingsforEnterprise_k1h2ywk1493x8 = Deny
+     Microsoft.GamingApp_8wekyb3d8bbwe = Deny
+     Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe = Prompt
+     Microsoft.RemoteDesktop_8wekyb3d8bbwe = Prompt
+     Microsoft.ScreenSketch_8wekyb3d8bbwe = Deny
+     Microsoft.SkypeApp_kzf8qxf38zg5c = Allow
+     Microsoft.Windows.Photos_8wekyb3d8bbwe = Deny
+     Microsoft.WindowsCamera_8wekyb3d8bbwe = Allow
+     Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe = Prompt
+     Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe = Allow
+     Microsoft.XboxGamingOverlay_8wekyb3d8bbwe = 
+     MicrosoftWindows.Client.CBS_cw5n1h2txyewy = 
+     MSTeams_8wekyb3d8bbwe = Prompt
+     NonPackaged = Allow
+     windows.immersivecontrolpanel_cw5n1h2txyewy = 
+
+=== AUDIO CAPTURE DEVICES ===
+  Unknown  MEDIA  .
+  Unknown  MEDIA  Microsoft Streaming Service Proxy
+  Unknown  AudioEndpoint  扬声器 (.
+  Unknown  MEDIA  .
+  Unknown  AudioEndpoint  扬声器 (.
+  Unknown  AudioEndpoint  耳机 (.
+  Unknown  MEDIA  .
+  Unknown  MEDIA  USB2.0 MIC
+  Unknown  AudioEndpoint  数字音频接口 (2- .
+  Unknown  AudioEndpoint  扬声器 (.
+  Unknown  AudioEndpoint  数字音频接口 (4- .
+  Unknown  AudioEndpoint  耳机 (.
+  Unknown  AudioEndpoint  耳机 (.
+  Unknown  AudioEndpoint  耳机 (.
+  Unknown  AudioEndpoint  数字音频接口 (5- .
+  Unknown  MEDIA  .
+  Unknown  MEDIA  .
+  OK  AudioEndpoint  麦克风 (.
+  Unknown  AudioEndpoint  耳机 (.
+  Unknown  AudioEndpoint  耳机 (.
+  Unknown  AudioEndpoint  扬声器 (.
+  Unknown  AudioEndpoint  麦克风 (.
+  OK  MEDIA  .
+  Unknown  AudioEndpoint  麦克风 (.
+  Unknown  AudioEndpoint  数字音频接口 (6- .
+  Unknown  MEDIA  .
+  OK  AudioEndpoint  扬声器 (.
+  Unknown  MEDIA  Microsoft Streaming Quality Manager Proxy
+  Unknown  MEDIA  .
+  Unknown  AudioEndpoint  数字音频接口 (3- .
+  Unknown  AudioEndpoint  数字音频接口 (.
+  Unknown  MEDIA  .
+  Unknown  AudioEndpoint  麦克风 (.
+  Unknown  AudioEndpoint  麦克风 (.
+  Unknown  AudioEndpoint  耳机 (.
+  Unknown  MEDIA  Microsoft Streaming Clock Proxy

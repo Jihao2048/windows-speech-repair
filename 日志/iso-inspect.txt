@@ -1,0 +1,145 @@
+﻿=== ISO INSPECTION 2026-09-26T10:43:02 ===
+
+=== 1. Search WinSxS for SpeechRuntime.dll and related ===
+  SpeechRuntime.dll -> 0 hit(s)
+  SpeechRuntime.exe -> 2 hit(s)
+     C:\Windows\WinSxS\amd64_microsoft-onecore-s..chservice-component_31bf3856ad364e35_10.0.26100.8521_none_4956195b3bec2813\SpeechRuntime.exe  (364,544 bytes)
+     C:\Windows\WinSxS\amd64_microsoft-onecore-s..chservice-component_31bf3856ad364e35_10.0.26100.8521_none_4956195b3bec2813\r\SpeechRuntime.exe  (58,604 bytes)
+  SpeechRuntime.winmd -> 0 hit(s)
+
+=== 2. Any component folder that looks like an LKG appx payload (has Assets or appxmanifest) ===
+  appxmanifest.xml count under WinSxS: 102
+     C:\Windows\WinSxS\amd64_microsoft-aifabric-cbs-1-6_31bf3856ad364e35_10.0.26100.8521_none_52bce7eb96822b2d\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-ui-xaml-cbs_31bf3856ad364e35_10.0.26100.1_none_9c6d5bc5b462b7ad\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-ui-xaml-cbs_31bf3856ad364e35_10.0.26100.8328_none_3b47ba2ffbd3aaa1\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-a..arydialog.appxsetup_31bf3856ad364e35_10.0.26100.1_none_46a60ecbbdfb2876\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-a..ep-chxapp.appxsetup_31bf3856ad364e35_10.0.26100.1_none_05aae033ab703f80\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-a..esolverux.appxsetup_31bf3856ad364e35_10.0.26100.1_none_b8834d067717f11f\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-a..sslockapp.appxsetup_31bf3856ad364e35_10.0.26100.1_none_f830742f8fe14535\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-a..tscontrol.appxsetup_31bf3856ad364e35_10.0.26100.1_none_450c724f806236f0\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-a..xtservice.appxsetup_31bf3856ad364e35_10.0.26100.1_none_4c45e71dbb124a21\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-augloop.appxsetup_31bf3856ad364e35_10.0.26100.1_none_917d7fe8ecd4827c\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-augloop.appxsetup_31bf3856ad364e35_10.0.26100.8246_none_3064dc63343b58eb\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-augloop.appxsetup_31bf3856ad364e35_10.0.26100.8246_none_3064dc63343b58eb\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-b..nrollment.appxsetup_31bf3856ad364e35_10.0.26100.1_none_c40b44bca81e122d\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-c..ialoghost.appxsetup_31bf3856ad364e35_10.0.26100.1_none_df32cd4190ee51c9\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-c..iencehost.appxsetup_31bf3856ad364e35_10.0.26100.1_none_9b17dd7b784e8a0c\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-c..rymanager.appxsetup_31bf3856ad364e35_10.0.26100.1_none_7d49b12489bb9e23\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-c..urepicker.appxsetup_31bf3856ad364e35_10.0.26100.1_none_af35afc1a693180b\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-d..eexplorer.appxsetup_31bf3856ad364e35_10.0.26100.1_none_8bf39be3371f92da\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-d..view-host-appxsetup_31bf3856ad364e35_10.0.26100.1_none_444bd9d4858fa58f\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-ecapp.appxsetup_31bf3856ad364e35_10.0.26100.1150_none_945b7d46d1575d92\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-ecapp.appxsetup_31bf3856ad364e35_10.0.26100.1150_none_945b7d46d1575d92\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-ecapp.appxsetup_31bf3856ad364e35_10.0.26100.8521_none_942d333ad17a8703\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-ecapp.appxsetup_31bf3856ad364e35_10.0.26100.8521_none_942d333ad17a8703\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-filepicker.appxsetup_31bf3856ad364e35_10.0.26100.1_none_c1c0c810bb36d6df\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-filepicker.appxsetup_31bf3856ad364e35_10.0.26100.8521_none_6086261b02b74e4e\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-i..trolpanel.appxsetup_31bf3856ad364e35_10.0.26100.1_none_5a53079c9dd75da9\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-i..trolpanel.appxsetup_31bf3856ad364e35_10.0.26100.7705_none_f9006834e56a43a9\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-i..trolpanel.appxsetup_31bf3856ad364e35_10.0.26100.7705_none_f9006834e56a43a9\r\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-lockapp.appxsetup_31bf3856ad364e35_10.0.26100.1301_none_9ab2bda0bcd560fd\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-lockapp.appxsetup_31bf3856ad364e35_10.0.26100.1301_none_9ab2bda0bcd560fd\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-lockapp.appxsetup_31bf3856ad364e35_10.0.26100.8655_none_9a970178bce98618\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-lockapp.appxsetup_31bf3856ad364e35_10.0.26100.8655_none_9a970178bce98618\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-m..olsclient.appxsetup_31bf3856ad364e35_10.0.26100.1_none_86b588af109947ed\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-m..t-browser.appxsetup_31bf3856ad364e35_10.0.26100.1_none_1b511511fac9dfed\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-n..uickstart.appxsetup_31bf3856ad364e35_10.0.26100.1_none_502ffa7530803447\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-ncsiuwpapp.appxsetup_31bf3856ad364e35_10.0.26100.1_none_fd971188d4b0f2cf\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-o..ctionflow.appxsetup_31bf3856ad364e35_10.0.26100.1_none_d557c8265cdd037e\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-o..ctionflow.appxsetup_31bf3856ad364e35_10.0.26100.8328_none_74322690a44df672\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-o..ctionflow.appxsetup_31bf3856ad364e35_10.0.26100.8328_none_74322690a44df672\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-o..iveportal.appxsetup_31bf3856ad364e35_10.0.26100.1_none_363542680deb076c\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-o..iveportal.appxsetup_31bf3856ad364e35_10.0.26100.8328_none_d50fa0d2555bfa60\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-o..iveportal.appxsetup_31bf3856ad364e35_10.0.26100.8328_none_d50fa0d2555bfa60\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-p..iencehost.appxsetup_31bf3856ad364e35_10.0.26100.1_none_838db81eea600c10\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-p..ioncenter.appxsetup_31bf3856ad364e35_10.0.26100.1_none_9ec4c09f01b4b5a2\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-p..iondialog.appxsetup_31bf3856ad364e35_10.0.26100.1_none_e72c738475354b0f\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-p..lcontrols.appxsetup_31bf3856ad364e35_10.0.26100.1_none_c8cc0874275cc384\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-printdialog.appxsetup_31bf3856ad364e35_10.0.26100.1_none_2e9e0b115ac9759e\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-printdialog.appxsetup_31bf3856ad364e35_10.0.26100.8521_none_cd63691ba249ed0d\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..iencehost.appxsetup_31bf3856ad364e35_10.0.26100.1301_none_680f431b5aaad1ac\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..iencehost.appxsetup_31bf3856ad364e35_10.0.26100.1301_none_79f0938f6561555f\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..iencehost.appxsetup_31bf3856ad364e35_10.0.26100.4768_none_67e96b615ac68456\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..iencehost.appxsetup_31bf3856ad364e35_10.0.26100.4768_none_67e96b615ac68456\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..iencehost.appxsetup_31bf3856ad364e35_10.0.26100.8115_none_7a06e5db65508969\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..iencehost.appxsetup_31bf3856ad364e35_10.0.26100.8115_none_7a06e5db65508969\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..kerplugin.appxsetup_31bf3856ad364e35_10.0.26100.1_none_ac10b332e1002cc0\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..kerplugin.appxsetup_31bf3856ad364e35_10.0.26100.3323_none_4aeb7a072870adcc\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-s..kerplugin.appxsetup_31bf3856ad364e35_10.0.26100.3323_none_4aeb7a072870adcc\r\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-w..bviewhost.appxsetup_31bf3856ad364e35_10.0.26100.1_none_9a93dd521e108531\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-windows-x..ectdialog.appxsetup_31bf3856ad364e35_10.0.26100.1_none_86463195d3a0f04e\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-xbox-gamecallableui.appxsetup_31bf3856ad364e35_10.0.26100.1_none_7fb759e247ceb505\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoft-xbox-gamecallableui.appxsetup_31bf3856ad364e35_10.0.26100.8246_none_1e9eb65c8f358b74\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_microsoftwindows-un..keddevkit.appxsetup_31bf3856ad364e35_10.0.26100.1_none_51ec74577d6c2254\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-coreai_31bf3856ad364e35_10.0.26100.8655_none_96c823ba778711be\CoreAI\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-core_31bf3856ad364e35_10.0.26100.8524_none_53e516b97ad01bdb\Core\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-desktop_31bf3856ad364e35_10.0.26100.8655_none_c806c8951a5d0e07\CBS\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.1591_none_ed01032043c8051c\FileExp\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.8521_none_ecfa0e6443ce3fcc\FileExp\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-fileexp_31bf3856ad364e35_10.0.26100.8521_none_ecfa0e6443ce3fcc\r\FileExp\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-lkg_31bf3856ad364e35_10.0.26100.1742_none_3c72368675eae921\LKG.AccountsService\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-lkg_31bf3856ad364e35_10.0.26100.1742_none_3c72368675eae921\LKG.IrisService\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-oobe_31bf3856ad364e35_10.0.26100.1591_none_54983d2d7a4908c4\OOBE\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-oobe_31bf3856ad364e35_10.0.26100.8521_none_549148717a4f4374\OOBE\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-oobe_31bf3856ad364e35_10.0.26100.8521_none_549148717a4f4374\r\OOBE\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-photon_31bf3856ad364e35_10.0.26100.1591_none_faf85d9f2170dfcf\Photon\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-photon_31bf3856ad364e35_10.0.26100.8521_none_faf168e321771a7f\Photon\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-photon_31bf3856ad364e35_10.0.26100.8521_none_faf168e321771a7f\r\Photon\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.8521_none_41c778aa72898e8f\57242383.Tasbar\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.8521_none_41c778aa72898e8f\61869720.Voiess\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.8521_none_41c778aa72898e8f\61869721.Livtop\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.8521_none_41c778aa72898e8f\61869722.Speion\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_userexperience-sxs_31bf3856ad364e35_10.0.26100.8521_none_41c778aa72898e8f\61869836.InpApp\appxmanifest.xml
+     C:\Windows\WinSxS\amd64_winappsdk-cbs-stable_31bf3856ad364e35_10.0.26100.8328_none_6e47419f4c639fe0\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_winappsdk-cbs_31bf3856ad364e35_10.0.26100.1591_none_60aad032a4073cbd\AppxManifest.xml
+     C:\Windows\WinSxS\amd64_winappsdk-vnext-cbs_31bf3856ad364e35_10.0.26100.8328_none_44bbd0be8a0d88a6\AppxManifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\07f8b9f05f4ddd017ad100001c10283d\LKG.AccountsService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\0c0d72145f4ddd01951600001c10e01c\LKG.IrisService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\1a4bf8105f4ddd013f1500001c10e01c\AppxManifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\414c99db5e4ddd01420b00001c10e01c\LKG.IrisService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\466dbaf05f4ddd017cd100001c10283d\LKG.IrisService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\857f98db5e4ddd01400b00001c10e01c\LKG.AccountsService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\869eaf85ef4cdd01371e00002c09b423\AppxManifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\9007a053eb4cdd01420b0000bc6dd46d\LKG.IrisService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\9d7071145f4ddd01931600001c10e01c\LKG.AccountsService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\9da17bd75e4ddd01ec0900001c10e01c\AppxManifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\a98e0ced5f4ddd0126d000001c10283d\AppxManifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\b2d3c14feb4cdd01ec090000bc6dd46d\AppxManifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\bbbc46d5eb4cdd01400b00002c096c23\LKG.AccountsService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\cf7d9f53eb4cdd01400b0000bc6dd46d\LKG.AccountsService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\ddbbdf89ef4cdd018b1f00002c09b423\LKG.AccountsService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\ea5048d1eb4cdd01ec0900002c096c23\AppxManifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\ee7ee089ef4cdd018d1f00002c09b423\LKG.IrisService\appxmanifest.xml
+     C:\Windows\WinSxS\Temp\InFlight\f16c47d5eb4cdd01420b00002c096c23\LKG.IrisService\appxmanifest.xml
+
+=== 3. Locate the Windows 11 ISO ===
+  windows_11 iso candidates: 1
+     .  (6.40 GB)
+
+=== 4. Mount the ISO read-only ===
+  mounted, drive letter: D
+
+  --- ISO root ---
+     boot
+     efi
+     sources
+     support
+     __chunk_data
+     autorun.inf
+     bootmgr
+     bootmgr.efi
+     setup.exe
+
+  --- sources\install.* and boot.wim ---
+     boot.wim                 622,190,932
+     install.wim            5,970,965,026
+
+  --- image info ---
+     D:\sources\install.wim
+        [1] Windows 11 教育版   version=
+        [2] Windows 11 企业版   version=
+        [3] Windows 11 专业版   version=
+        [4] Windows 11 专业教育版   version=
+        [5] Windows 11 专业工作站版   version=
+
+=== DONE 2026-09-26T10:44:40 ===

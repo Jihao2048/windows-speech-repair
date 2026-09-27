@@ -1,0 +1,30 @@
+﻿=== FIX MANIFEST CASE + REGISTER 2026-09-26T10:57:26 ===
+
+=== 1. Actual on-disk casing (cmd dir shows true case) ===
+  --- C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+     manifest entry: [appxmanifest.xml]
+  --- C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy
+     manifest entry: [appxmanifest.xml]
+  --- C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+     manifest entry: [appxmanifest.xml]
+
+=== 2. Two-step rename to force correct on-disk case ===
+  renamed to _manifest_tmp.xml: True
+  renamed to AppxManifest.xml: True
+  --- on-disk casing now:
+     [AppxManifest.xml]
+
+=== 3. Register ===
+  REGISTER FAILED: 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0008-f95f-62885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0008-f95f-62885c4ddd01
+
+
+=== 4. State ===
+  LKG packages for current user: 0
+
+=== 5. Restart TextInputHost ===
+  TextInputHost pid 11516
+
+=== DONE 2026-09-26T10:57:29 ===

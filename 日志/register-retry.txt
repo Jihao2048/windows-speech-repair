@@ -1,0 +1,52 @@
+﻿=== REGISTER RETRY 2026-09-26T10:55:51 ===
+
+=== 1. Current folder content ===
+  Assets                                                                       1  DIR
+  MASmodels                                                                    1  DIR
+  microsoft.system.package.metadata                                            1  DIR
+  pris                                                                         1  DIR
+  appxblockmap.xml                                                           405  FILE
+  appxmanifest.xml                                                        10,696  FILE
+  appxsignature.p7x                                                        9,649  FILE
+  coreAppActivation.SCCD                                                  17,047  FILE
+  FPIEProcessor.dll                                                    1,709,624  FILE
+  Microsoft.CognitiveServices.Speech.core.dll                          2,305,080  FILE
+  Microsoft.CognitiveServices.Speech.extension.audio.sys.dll             148,536  FILE
+  Microsoft.CognitiveServices.Speech.extension.embedded.sr.dll           273,464  FILE
+  Microsoft.CognitiveServices.Speech.extension.embedded.sr.runtime.dll    4,847,672  FILE
+  Microsoft.CognitiveServices.Speech.extension.embedded.tts.dll        6,066,744  FILE
+  Microsoft.CognitiveServices.Speech.extension.lu.dll                    374,344  FILE
+  Microsoft.CognitiveServices.Speech.extension.mas.dll                 3,128,376  FILE
+  Microsoft.CognitiveServices.Speech.extension.onnxruntime.dll         8,285,768  FILE
+  Microsoft.CognitiveServices.Speech.extension.telemetry.dll           1,570,888  FILE
+  resources.pri                                                           24,152  FILE
+
+=== 2. Create AppxManifest.xml (correct casing) in package root ===
+  lowercase exists: True
+  AppxManifest.xml exists: True
+  AppxManifest.xml now exists: True
+
+=== 3. Attempt registration (path to AppxManifest.xml) ===
+  REGISTER FAILED: 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0009-4ebe-61885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0009-4ebe-61885c4ddd01
+
+
+=== 4. If that failed, try folder-based registration ===
+  FOLDER REGISTER FAILED: 传递给此函数的部件清单(manifest)文件名无效。此文件必须命名为 AppxManifest.xml
+
+=== 5. Also try RegisterByFamilyName again (payload now present) ===
+  RegisterByFamilyName FAILED: 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-000b-aa8a-65885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-000b-aa8a-65885c4ddd01
+
+
+=== 6. Final registration state ===
+  LKG packages for current user: 0
+
+=== 7. Restart TextInputHost ===
+  TextInputHost pid 3576
+
+=== DONE 2026-09-26T10:55:54 ===

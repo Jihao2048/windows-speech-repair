@@ -1,0 +1,24 @@
+﻿=== OS ===
+Product: Windows 10 Enterprise
+Edition: Enterprise  DisplayVersion: 25H2  Build: 26200.8655
+=== ELEVATION ===
+Current process elevated: False
+User: .
+=== SERVICES ===
+Audiosrv                         Running    Automatic
+AudioEndpointBuilder             Running    Automatic
+SapiSrv                          NOT FOUND
+SpeechRuntime                    NOT FOUND
+TabletInputService               NOT FOUND
+WpnService                       Running    Automatic
+TextInputManagementService       Running    Automatic
+=== SPEECH REGISTRY ===
+HKLM:\SOFTWARE\Microsoft\Speech\Voices\Tokens -> 2 token(s)
+HKLM:\SOFTWARE\Microsoft\Speech_OneCore\Voices\Tokens -> 3 token(s)
+HKLM:\SOFTWARE\WOW6432Node\Microsoft\Speech\Voices\Tokens -> 2 token(s)
+=== SPEECH FILES ===
+C:\Windows\Speech exists: True
+C:\Windows\Speech_OneCore exists: True
+C:\Windows\System32\Speech exists: True
+=== UAC ===
+EnableLUA = 1

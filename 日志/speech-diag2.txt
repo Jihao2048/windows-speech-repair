@@ -1,0 +1,42 @@
+﻿=== ALL SERVICES matching Speech/Input/Voice ===
+GameInputSvc                             Stopped    Manual
+TextInputManagementService               Running    Automatic
+
+=== REGISTRY SERVICE KEYS matching Speech/Voice ===
+
+=== KEY FILES ===
+C:\Windows\System32\SpeechRuntime.exe exists: False
+C:\Windows\System32\Speech_OneCore exists: True
+C:\Windows\System32\Speech exists: True
+C:\Windows\System32\sapi.dll exists: False
+C:\Windows\System32\Speech\SpeechUX\sapi.cpl exists: True
+
+=== INPUT/IME related features ===
+TextInputHost exists: False
+Windows.SpeechRuntime pkg dirs:
+
+=== APPX packages (speech/voice) ===
+  Microsoft.XboxSpeechToTextOverlay  1.97.17002.0
+  MicrosoftWindows.Voice.zh-CN.XiaoxiaoHD.1  1.0.1.0
+  MicrosoftWindows.Speech.zh-CN.1  1.0.23.0
+  Microsoft.LanguageExperiencePackzh-CN  26100.161.258.0
+
+=== INSTALLED LANGUAGES ===
+  zh-Hans-CN  Spellcheck=  Handwriting=True
+
+=== SPEECH LANGUAGE PACKS (Speech_OneCore) ===
+  recognizer: Tokens
+
+=== PRIVACY / ONLINE SPEECH SETTINGS (HKCU) ===
+-- HKCU:\Software\Microsoft\Speech_OneCore\Settings\PrivacyPolicy
+   (missing)
+-- HKCU:\Software\Microsoft\Speech_OneCore\Settings\SpeechRecognizer
+   UseRelaxedRecognition = 1
+-- HKCU:\Software\Microsoft\Input\Settings
+   (missing)
+
+=== RECENT HOTFIXES ===
+  KB5126052  Update  2026/9/26 0:00:00
+  KB5094126  Security Update  2026/6/13 0:00:00
+  KB5094135  Security Update  2026/6/12 0:00:00
+  KB5054156  Update  2026/3/4 0:00:00

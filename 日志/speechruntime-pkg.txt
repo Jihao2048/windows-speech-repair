@@ -1,0 +1,20 @@
+﻿=== 1. Package folder contents ===
+  dir exists: True
+
+=== 2. All-users registration state of speech/input/voice packages ===
+
+=== 3. Current user registration (no -AllUsers) ===
+  Microsoft.XboxSpeechToTextOverlay  1.97.17002.0  Status=Ok
+  MicrosoftWindows.Voice.zh-CN.XiaoxiaoHD.1  1.0.1.0  Status=Ok
+  MicrosoftWindows.Speech.zh-CN.1  1.0.23.0  Status=Ok
+  MicrosoftWindows.Client.CBS  1000.26100.315.0  Status=Ok
+  MicrosoftWindows.Client.CoreAI  1000.26100.8655.0  Status=Ok
+  MicrosoftWindows.Client.Core  1000.26100.94.0  Status=Ok
+
+=== 4. LKG folder full listing ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy

@@ -1,0 +1,42 @@
+﻿=== POST-REBOOT CHECK 2026-09-26T11:14:39 ===
+  boot time: 2026/9/26 11:13:32
+  whoami: .\.
+  user SID: .
+
+=== 1. LKG packages registered for CURRENT user ===
+  count: 0
+
+=== 2. SpeechRuntime specifically ===
+  current user: 0
+  all-users: MicrosoftWindows.LKG.SpeechRuntime 1000.26100.3775.0 Ok
+     Installed
+     Installed
+     Installed
+
+=== 3. LKG folder file counts (payload intact?) ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy         files=13   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy        files=21   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy             files=13   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy             files=12   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy           files=22   manifest=[appxmanifest.xml]
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy                 files=12   manifest=[appxmanifest.xml]
+
+=== 4. Try registering SpeechRuntime again (post-reboot) ===
+  loose REGISTER FAILED -> 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+=== 5. Windows Update client state (was 0x80072EE6) ===
+  wuauserv: Running / Automatic
+  policy HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate exists: False
+  policy HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU exists: False
+  WU search FAILED: 异常来自 HRESULT:0x80072EE6
+
+=== 6. Speech-related processes ===
+  TextInputHost (pid 21200)
+
+=== 7. Component store state (quick) ===
+     版本: 10.0.26100.8521
+     映像版本: 10.0.26200.8655
+     可以修复组件存储。
+     操作成功完成。
+
+=== DONE 2026-09-26T11:14:47 ===

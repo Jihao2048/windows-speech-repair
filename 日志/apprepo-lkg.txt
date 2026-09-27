@@ -1,0 +1,5 @@
+﻿=== LKG package manifests in AppRepository ===
+  count: 0
+
+=== also search for SpeechRuntime anywhere in AppRepository ===
+  count: 0

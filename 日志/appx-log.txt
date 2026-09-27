@@ -1,0 +1,69 @@
+﻿=== APPX DEPLOYMENT DETAILED LOG 2026-09-26T10:56:21 ===
+
+=== 1. Get-AppPackageLog for the failed attempts ===
+  --- ActivityId 88529e63-4d5c-000b-aa8a-65885c4ddd01
+     已使用主参数 MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 以及选项 0 和 0 开始对程序包执行部署 RegisterByPackageFamilyName 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+     正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+     程序包  的 AppX 部署操作失败，错误为 0x80070057。此失败的具体错误文本是: 正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+  --- ActivityId 88529e63-4d5c-0009-4ebe-61885c4ddd01
+     已使用主参数 AppxManifest.xml 以及选项 0 和 0 开始对程序包执行部署 Register 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+     正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+     程序包  的 AppX 部署操作失败，错误为 0x80070057。此失败的具体错误文本是: 正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+  --- ActivityId 88529e63-4d5c-0004-9a9f-63885c4ddd01
+     已使用主参数 appxmanifest.xml 以及选项 0 和 0 开始对程序包执行部署 Register 操作。要获取有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+     正在拒绝从 appxmanifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+     程序包  的 AppX 部署操作失败，错误为 0x80070057。此失败的具体错误文本是: 正在拒绝从 appxmanifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+=== 2. PackageUserInformation detail (resolve SIDs properly) ===
+  PackageFullName: MicrosoftWindows.LKG.SpeechRuntime_1000.26100.3775.0_x64__cw5n1h2txyewy
+  [1] state=Installed raw=Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId resolved=Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId
+  [2] state=Installed raw=Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId resolved=Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId
+  [3] state=Installed raw=Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId resolved=Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId
+  [4] state=Installed(pending removal) raw=Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId resolved=Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId
+
+  --- raw Format-List of one entry ---
+     UserSecurityId : Microsoft.Windows.Appx.PackageManager.Commands.AppxUserSecurityId
+     InstallState   : Installed
+
+=== 3. microsoft.system.package.metadata folder ===
+  --- C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+     metadata dir exists: True
+     SxS metadata (.SCCD etc): 1
+  --- C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy
+     metadata dir exists: True
+     SxS metadata (.SCCD etc): 1
+  --- C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy
+     metadata dir exists: True
+     SxS metadata (.SCCD etc): 0
+
+=== 4. AppXDeploymentServer operational log: recent errors ===
+
+=== 5. Compare: how does a WORKING system appx folder look? ===
+  --- C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy
+     AppxMetadata                                            DIR
+     Assets                                                  DIR
+     CommandExecutor                                         DIR
+     FamilyValueProp                                         DIR
+     FREUserInterface                                        DIR
+     IntentDefinitions                                       DIR
+     LiveCaptions                                            DIR
+     LogonWebHost                                            DIR
+     microsoft.system.package.metadata                       DIR
+     pris                                                    DIR
+     ScreenClipping                                          DIR
+     SettingsModelService                                    DIR
+     SnapLayout                                              DIR
+     SpeechSynthesizer                                       DIR
+     StartMenu                                               DIR
+     SystemTray                                              DIR
+     Taskbar                                                 DIR
+     ValueBanner                                             DIR
+     VoiceAccess                                             DIR
+     VoiceAccessCommon                                       DIR
+     VoiceAccessHost                                         DIR
+     Widgets.Taskbar                                         DIR
+     AdaptiveCards.ObjectModel.Uwp.dll                       FILE
+     AdaptiveCards.Rendering.Uwp.dll                         FILE
+     AppListBackup.dll                                       FILE
+
+=== DONE 2026-09-26T10:56:52 ===

@@ -1,0 +1,49 @@
+﻿=== VERSION CONFLICT EXPERIMENT 2026-09-26T11:00:50 ===
+
+=== 0. Baseline error with version 1000.26100.3470.0 ===
+  manifest identity: <Identity Name="MicrosoftWindows.LKG.SpeechRuntime" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+
+=== 1. Variant A: version 1000.26100.3775.0 (same as registered) ===
+  VariantA : FAILED -> 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.SpeechRuntime，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-000a-86b1-65885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-000a-86b1-65885c4ddd01
+
+
+=== 2. Variant B: version 1000.26100.9999.0 (higher = upgrade) ===
+  VariantB : FAILED -> 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.SpeechRuntime，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0009-a2f5-63885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0009-a2f5-63885c4ddd01
+
+
+=== 3. Variant C: bump to 1000.26100.9999.0 and drop signature/blockmap ===
+  moved appxsignature.p7x aside
+  moved appxblockmap.xml aside
+  VariantC : FAILED -> 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.SpeechRuntime，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0009-d4f8-63885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0009-d4f8-63885c4ddd01
+
+
+=== 4. Restore manifest to original version 3470 ===
+  restored
+  identity now: <Identity Name="MicrosoftWindows.LKG.SpeechRuntime" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+
+=== 5. Current registration state ===
+  LKG for current user: 0
+
+=== 6. All-users state for SpeechRuntime ===
+  MicrosoftWindows.LKG.SpeechRuntime  1000.26100.3775.0  Ok
+     state=Installed
+     state=Installed
+     state=Installed
+     state=Installed(pending removal)
+
+=== 7. Check if a newer Windows update is available (would re-project LKG payloads) ===
+  WU search failed: 异常来自 HRESULT:0x80072EE6
+
+=== DONE 2026-09-26T11:01:06 ===

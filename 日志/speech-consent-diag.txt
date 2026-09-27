@@ -1,0 +1,74 @@
+﻿=== Search for HasAccepted / OnlineSpeech under Speech_OneCore ===
+-- HKCU:\Software\Microsoft\Speech_OneCore
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+-- HKLM:\SOFTWARE\Microsoft\Speech_OneCore
+   DictationInCFG :: Attributes = Anywhere;Trailing
+      path: 
+   AccSpeech :: Settings = 0
+      path: 
+   PrivacyPolicyAcceptance :: Settings = 2
+      path: 
+   PrivacyPolicyDeclinedCount :: Settings = 0
+      path: 
+   PrivacyPolicyMaxDeclinedCount :: Settings = 3
+      path: 
+   PrivacyPolicyVersion :: Settings = 2
+      path: 
+   SpeechOutVolume :: Settings = 3865503334
+      path: 
+   SpeechUxHasBeenUsed :: SapiSvr = 1
+      path: 
+
+=== InputPersonalization (legacy dictation) ===
+-- HKCU:\Software\Microsoft\InputPersonalization exists: True
+     RestrictImplicitInkCollection = 0
+     RestrictImplicitTextCollection = 0
+     TextHarvestingInstallationStatus = 6
+     DisablePersInternal = 0
+     MaximumInkStoreSize = 50000
+-- HKLM:\SOFTWARE\Policies\Microsoft\InputPersonalization exists: False
+-- HKCU:\Software\Microsoft\InputPersonalization\TrainedDataStore exists: True
+     HarvestContacts = 1
+-- HKCU:\Software\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Language exists: False
+
+=== Policy keys that can disable speech ===
+-- HKLM:\SOFTWARE\Policies\Microsoft\Speech exists: False
+-- HKCU:\SOFTWARE\Policies\Microsoft\Speech exists: False
+-- HKLM:\SOFTWARE\Policies\Microsoft\Windows\Speech exists: False
+-- HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Speech exists: False
+-- HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate exists: True
+     DisableWindowsUpdateAccess = 1
+     DisableOSUpgrade = 1
+     DoNotConnectToWindowsUpdateInternetLocations = 1
+     WUServer = .
+     WUStatusServer = .
+     UpdateServiceUrlAlternate = .
+
+=== VoiceLanguage / locale consistency ===
+  Speech_OneCore VoiceLanguage = 1033
+  System locale (Get-WinSystemLocale) = zh-CN
+  User locale = zh-Hans-CN
+  Preferred UI lang = 

@@ -1,0 +1,29 @@
+﻿=== WINDOWS UPDATE POLICY CLEANUP 2026-09-26T10:35:38 ===
+
+=== 1. Backup current policies to C:\hidisp\wu-policy-backup.reg ===
+  export HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate -> 操作成功完成。 
+  export HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU -> 操作成功完成。 
+  backup file exists: True
+
+=== 2. Values before deletion ===
+-- HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
+     (key not readable)
+-- HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+     (key not readable)
+
+=== 3. Removing policy keys ===
+  delete HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate -> 操作成功完成。 
+  delete HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU -> 错误: 系统找不到指定的注册表项或值。
+
+=== 4. Verify removal ===
+  HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate still exists: False
+  HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU still exists: False
+
+=== 5. Service state after cleanup ===
+  wuauserv     Running    Automatic
+  BITS         Running    Automatic
+  UsoSvc       Running    Automatic
+  DoSvc        Running    Automatic
+  wuauserv registry Start = 2
+
+=== DONE 2026-09-26T10:35:38 ===

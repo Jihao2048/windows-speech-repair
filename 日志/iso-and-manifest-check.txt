@@ -1,0 +1,37 @@
+﻿=== ISO + MANIFEST INVESTIGATION 2026-09-26T10:42:11 ===
+
+=== A. AppRepository: robust scan for LKG / Speech manifests ===
+  repo exists: True
+  total xml files found: 565
+  LKG xml files: 6
+    .
+    .
+    .
+    .
+    .
+    .
+  Speech/Voice/InpApp xml files: 15
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+
+=== B. Mount the Windows 11 24H2 ISO (read only) ===
+  iso exists: False
+  MOUNT FAILED: 系统找不到指定的路径。 
+
+=== C. Current OS version for reference ===
+  OS build: 26200.8655  (25H2)
+
+=== DONE 2026-09-26T10:42:12 ===

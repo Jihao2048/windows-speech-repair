@@ -1,0 +1,73 @@
+﻿=== WU LEFTOVER CLEANUP + VOICE VERIFY 2026-09-26T11:22:29 ===
+
+=== 1. Backup the GP cache key ===
+  export -> 操作成功完成。 
+  backup exists: True
+
+=== 2. Current cached policy values ===
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\GPCache
+         ActiveCache    REG_DWORD    0x1
+         ActiveCacheHash    REG_SZ    VMB4xOb62zHFmf4UKhe29KyDtWlyiA9V0FvYyUXnJMI=
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\GPCache\CacheSet001
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\GPCache\CacheSet001\WindowsUpdate
+         DisableWindowsUpdateAccess    REG_DWORD    0x1
+         DisableOSUpgrade    REG_DWORD    0x1
+         DoNotConnectToWindowsUpdateInternetLocations    REG_DWORD    0x1
+         WUServer    REG_SZ    .
+         WUStatusServer    REG_SZ    .
+         UpdateServiceUrlAlternate    REG_SZ    .
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\GPCache\CacheSet001\WindowsUpdate\AU
+         NoAutoUpdate    REG_DWORD    0x1
+         UseWUServer    REG_DWORD    0x1
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\GPCache\CacheSet002
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\GPCache\CacheSet002\WindowsUpdate
+
+=== 3. Remove the stale cached policy set ===
+  delete -> 操作成功完成。 
+  still exists: False
+
+=== 4. Restart Windows Update services ===
+  restarted wuauserv
+  restarted BITS
+  restarted UsoSvc
+  restarted DoSvc
+  restarted cryptsvc
+
+=== 5. Retry the Windows Update search ===
+  WU SEARCH OK - available updates: 7
+     Windows Security platform更新 - KB5007651（版本10.0.29628.1000）
+     Windows 恶意软件删除工具 x64 - v5.145 (KB890830)
+     Dell Inc. - Monitor - 6/9/2018 12:00:00 AM - 1.0
+     AOC International (Europe) GmbH - Monitor - 7/10/2015 12:00:00 AM - 1.0.0.0
+     Realtek Semiconductor Corp. - USB - 3/15/2018 12:00:00 AM - 10.0.16299.31241
+     Lenovo Ltd. - Firmware - 1.53.0.0
+     2026-06 安全更新(KB5094126) (26200.8655)
+
+=== 6. VOICE INPUT CURRENT STATE ===
+--- LKG packages for current user ---
+  count: 0
+--- all-users SpeechRuntime ---
+     MicrosoftWindows.LKG.SpeechRuntime 1000.26100.3775.0 Ok
+        Installed
+        Installed
+        Installed
+--- engine files present? ---
+  folder files: 22
+  Microsoft.CognitiveServices.Speech.extension.embedded.sr.runtime.dll -> True
+  Microsoft.CognitiveServices.Speech.extension.onnxruntime.dll -> True
+  resources.pri -> True
+  appxmanifest.xml -> True
+  appxsignature.p7x -> True
+--- voice typing related packages (current user) ---
+     MicrosoftWindows.61869720.Voiess  1000.26100.8521.0  Ok
+     MicrosoftWindows.61869721.Livtop  1000.26100.8521.0  Ok
+     MicrosoftWindows.61869722.Speion  1000.26100.8521.0  Ok
+     MicrosoftWindows.61869836.InpApp  1000.26100.8521.0  Ok
+     MicrosoftWindows.Voice.zh-CN.XiaoxiaoHD.1  1.0.1.0  Ok
+     MicrosoftWindows.Speech.zh-CN.1  1.0.23.0  Ok
+--- online speech recognition consent ---
+  HasAccepted = 1
+--- running processes ---
+     TextInputHost (pid 21200)
+
+=== DONE 2026-09-26T11:22:51 ===

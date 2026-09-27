@@ -1,0 +1,49 @@
+﻿=== REMOVE MACHINE-WIDE REGISTRATION THEN RE-REGISTER 2026-09-26T11:01:29 ===
+
+=== 1. Back up current package folder (in case removal deletes it) ===
+  backed up 22 files to C:\hidisp\pkg-backup
+
+=== 2. Attempt Remove-AppxPackage -AllUsers ===
+  REMOVE -AllUsers FAILED: 无法卸载。请联系你的软件供应商。
+
+从   使用程序包 MicrosoftWindows.LKG.SpeechRuntime_1000.26100.3775.0_x64__cw5n1h2txyewy 中的目标卷 C: 执行的部署 Remove 操作失败，错误为 0x80070032。有关诊断应用部署问题的帮助，请参阅 http://go.microsoft.com/fwlink/?LinkId=235160。
+  --- trying per-user removal for current user only ---
+  REMOVE (current user) FAILED: 部署失败，原因是 HRESULT: 0x80073CFA, 无法卸载。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CFA)
+错误 0x80070032: C:\WINDOWS\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy 中的程序包 MicrosoftWindows.LKG.SpeechRuntime_1000.26100.3775.0_x64__cw5n1h2txyewy 上的 AppX 部署 Remove 操作失败。此应用是 Windows 的一部分，无法针对每个用户卸载该应用。管理员可以尝试使用“启用或关闭 Windows 功能”从计算机中删除该应用。不过，该应用可能无法被卸载。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0000-ca91-60885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0000-ca91-60885c4ddd01
+
+
+=== 3. State after removal attempt ===
+  all-users entries: 1
+     MicrosoftWindows.LKG.SpeechRuntime 1000.26100.3775.0 Ok
+        Installed
+        Installed
+        Installed
+  folder file count: 22
+
+=== 4. Re-copy payload if removal wiped it ===
+  payload intact
+
+=== 5. Try loose registration now ===
+  REGISTER FAILED: 部署失败，原因是 HRESULT: 0x80073CFB, 提供的程序包已安装，且禁止重新安装该程序包。请检查 AppXDeployment-Server 事件日志了解详细信息。
+
+另一个用户已安装此应用的打包版本。未打包版本无法替换该版本。冲突程序包为 MicrosoftWindows.LKG.SpeechRuntime，由 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US 发布。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0008-7af6-63885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0008-7af6-63885c4ddd01
+
+
+=== 6. Fallback: RegisterByFamilyName ===
+  RegisterByFamilyName FAILED: 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+正在拒绝从 AppxManifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0004-2f5d-66885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0004-2f5d-66885c4ddd01
+
+
+=== 7. Final state ===
+  LKG packages for current user: 0
+
+=== 8. Restart TextInputHost ===
+  TextInputHost pid 10628
+
+=== DONE 2026-09-26T11:01:43 ===

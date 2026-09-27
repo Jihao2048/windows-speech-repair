@@ -1,0 +1,57 @@
+﻿=== APPX DEPLOYMENT ENGINE HEALTH CHECK 2026-09-26T10:57:54 ===
+
+=== 1. Critical Appx / deployment services ===
+  AppXSvc              Running    Automatic
+  ClipSVC              Running    Manual
+  StateRepository      Running    Automatic
+  AppReadiness         Stopped    Manual
+  TokenBroker          Running    Manual
+  InstallService       Running    Manual
+  LicenseManager       Running    Manual
+  EntAppSvc            Stopped    Manual
+  wlidsvc              Stopped    Manual
+  AppMgmt              Stopped    Manual
+  BITS                 Stopped    Manual
+  TrustedInstaller     Stopped    Manual
+  msiserver            Stopped    Manual
+  storsvc              Running    Automatic
+  InstallService       Running    Manual
+
+=== 2. Registry Start values for those services ===
+  AppXSvc              Start=2  Type=32  ImagePath=C:\WINDOWS\system32\svchost.exe -k wsappx -p
+  ClipSVC              Start=3  Type=32  ImagePath=C:\WINDOWS\System32\svchost.exe -k wsappx -p
+  StateRepository      Start=2  Type=32  ImagePath=C:\WINDOWS\system32\svchost.exe -k appmodel -p
+  AppReadiness         Start=3  Type=32  ImagePath=C:\WINDOWS\System32\svchost.exe -k AppReadiness -p
+  TokenBroker          Start=3  Type=32  ImagePath=C:\WINDOWS\system32\svchost.exe -k netsvcs -p
+  InstallService       Start=3  Type=16  ImagePath=C:\WINDOWS\System32\svchost.exe -k netsvcs -p
+  LicenseManager       Start=3  Type=32  ImagePath=C:\WINDOWS\System32\svchost.exe -k LocalService -p
+  EntAppSvc            Start=3  Type=32  ImagePath=C:\WINDOWS\system32\svchost.exe -k appmodelRedirectionGuard -p
+
+=== 3. Appx-related policies (could block deployment) ===
+  -- HKLM:\SOFTWARE\Policies\Microsoft\Windows\Appx exists: True
+     MdmHosts = ^(?:[^\/]*)\.MANAGE[^\.]*\.(MICROSOFT\.(COM|US)|MICROSOFTONLINE\.CN)$
+  -- HKCU:\SOFTWARE\Policies\Microsoft\Windows\Appx exists: False
+  -- HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Appx exists: False
+  -- HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppInstaller exists: False
+
+=== 4. Developer mode / sideloading state ===
+  -- HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock exists: True
+     AllowDevelopmentWithoutDevLicense = 1
+
+=== 5. CONTROL TEST: try registering a KNOWN-GOOD system package ===
+  target: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\appxmanifest.xml
+  CONTROL REGISTER SUCCEEDED (so the engine works)
+
+=== 6. Control test 2: a small normal system app ===
+  target: C:\Windows\SystemApps\Microsoft.AsyncTextService_8wekyb3d8bbwe\AppxManifest.xml exists: True
+  CONTROL2 REGISTER SUCCEEDED
+
+=== 7. Anything in the StateRepository folder ===
+  StateRepository-Deployment.srd                          22,020,096
+  StateRepository-Deployment.srd-shm                          32,768
+  StateRepository-Deployment.srd-wal                           4,152
+  StateRepository-Machine.srd                              8,388,608
+  StateRepository-Machine.srd-shm                             32,768
+  StateRepository-Machine.srd-wal                            766,352
+
+=== DONE 2026-09-26T10:57:57 ===

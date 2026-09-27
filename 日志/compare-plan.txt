@@ -1,0 +1,138 @@
+﻿=== COMPARE + STAGE 2026-09-26T10:49:49 ===
+
+=== A. Manifest identity comparison (recovered vs machine DB) ===
+  recovered exists: True
+  db copy exists: True
+  recovered length: 10696   db length: 10696
+  IDENTICAL: False
+  recovered Identity: <Identity Name="MicrosoftWindows.LKG.SpeechRuntime" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+  db        Identity: <Identity Name="MicrosoftWindows.LKG.SpeechRuntime" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3775.0" ProcessorArchitecture="x64" />
+
+  --- recoverd package file list with versions ---
+    \appxblockmap.xml                                                               405  
+    \appxmanifest.xml                                                            10,696  
+    \appxsignature.p7x                                                            9,649  
+    \coreAppActivation.SCCD                                                      17,047  
+    \FPIEProcessor.dll                                                        1,709,624  
+    \Microsoft.CognitiveServices.Speech.core.dll                              2,305,080  1.41.1
+    \Microsoft.CognitiveServices.Speech.extension.audio.sys.dll                 148,536  1.41.1
+    \Microsoft.CognitiveServices.Speech.extension.embedded.sr.dll               273,464  1.41.1
+    \Microsoft.CognitiveServices.Speech.extension.embedded.sr.runtime.dll     4,847,672  4.1.13.0
+    \Microsoft.CognitiveServices.Speech.extension.embedded.tts.dll            6,066,744  1.41.1
+    \Microsoft.CognitiveServices.Speech.extension.lu.dll                        374,344  1.41.1
+    \Microsoft.CognitiveServices.Speech.extension.mas.dll                     3,128,376  
+    \Microsoft.CognitiveServices.Speech.extension.onnxruntime.dll             8,285,768  Internal Build
+    \Microsoft.CognitiveServices.Speech.extension.telemetry.dll               1,570,888  
+    \resources.pri                                                               24,152  
+    \Assets\LockScreenLogo.scale-200.png                                          1,563  
+    \Assets\SplashScreen.scale-200.png                                            7,700  
+    \Assets\Square150x150Logo.scale-200.png                                       7,742  
+    \Assets\Square44x44Logo.scale-200.png                                         2,465  
+    \Assets\StoreLogo.png                                                         1,404  
+    \Assets\StoreLogo.scale-100.png                                               1,404  
+    \MASmodels\aec_v1.fpie                                                    1,142,488  
+
+=== B. Machine: System32\Speech_OneCore tree ===
+    \common\privacy-icon.png                                                      1,615
+    \common\sapi_extensions.dll                                                 212,992
+    \common\sapi_onecore.dll                                                  4,468,736
+    \common\SpeechBrokeredApi.dll                                               172,032
+    \common\SpeechModelDownload.exe                                             217,088
+    \common\SpeechRuntime.exe                                                   364,544
+    \common\SpeechServiceWinRTApi.ProxyStub.dll                                  90,112
+    \common\toast-hero-image.png                                                 16,211
+    \common\tokens.xml                                                           14,037
+    \common\Windows.Speech.Dictation.dll                                        229,376
+    \common\Windows.Speech.Pal.Desktop.dll                                      249,856
+    \common\Windows.Speech.Shell.dll                                          1,077,248
+    \common\zh-CN\DictationCommands.0804.grxml                                   11,095
+    \common\zh-CN\Tokens_SR_zh-CN-N.xml                                           3,226
+    \common\zh-CN\tokens_TTS_zh-CN.xml                                            3,052
+    \common\zh-CN\tokens_TTS_zh-CN_huihui.xml                                     1,553
+    \common\zh-CN\Tokens_VoiceActivation_zh-CN.xml                                1,664
+    \common\zh-CN\VES-Disambiguation.0804.grxml                                   2,447
+    \common\zh-CN\VES-SeeItSayIt.0804.grxml                                       4,320
+    \common\zh-CN\VES-Select.0804.grxml                                           1,042
+    \Engines\SR\spsreng_onecore.dll                                           1,482,752
+    \Engines\SR\spsrx_onecore.dll                                               102,400
+    \Engines\TTS\MSTTSEngine_OneCore.dll                                      1,953,792
+    \Engines\TTS\MSTTSLoc_OneCore.dll                                           757,760
+    \VoiceActivation\zh-CN\sidubm.table                                          40,508
+    \VoiceActivation\zh-CN\VoiceActivation_HW_zh-CN.dat                          88,524
+    \VoiceActivation\zh-CN\VoiceActivation_zh-CN.dat                            370,668
+  machine file count under Speech_OneCore: 27
+
+=== C. Mount image and compare Speech_OneCore + Speech ===
+  mounted OK
+
+  --- image: Windows\System32\Speech_OneCore (exists: True)
+      \common\privacy-icon.png                                                      1,615
+      \common\sapi_extensions.dll                                                 212,992
+      \common\sapi_onecore.dll                                                  4,472,832
+      \common\SpeechBrokeredApi.dll                                               147,456
+      \common\SpeechModelDownload.exe                                             217,088
+      \common\SpeechRuntime.exe                                                   356,352
+      \common\SpeechServiceWinRTApi.ProxyStub.dll                                  90,112
+      \common\toast-hero-image.png                                                 16,211
+      \common\tokens.xml                                                           14,037
+      \common\Windows.Speech.Dictation.dll                                        229,376
+      \common\Windows.Speech.Pal.Desktop.dll                                      245,760
+      \common\Windows.Speech.Shell.dll                                          1,069,056
+      \common\zh-CN\DictationCommands.0804.grxml                                   11,095
+      \common\zh-CN\Tokens_SR_zh-CN-N.xml                                           3,226
+      \common\zh-CN\tokens_TTS_zh-CN.xml                                            3,052
+      \common\zh-CN\tokens_TTS_zh-CN_huihui.xml                                     1,553
+      \common\zh-CN\Tokens_VoiceActivation_zh-CN.xml                                1,664
+      \common\zh-CN\VES-Disambiguation.0804.grxml                                   2,447
+      \common\zh-CN\VES-SeeItSayIt.0804.grxml                                       4,320
+      \common\zh-CN\VES-Select.0804.grxml                                           1,042
+      \Engines\SR\spsreng_onecore.dll                                           1,482,752
+      \Engines\SR\spsrx_onecore.dll                                               102,400
+      \Engines\TTS\MSTTSEngine_OneCore.dll                                      2,027,520
+      \Engines\TTS\MSTTSLoc_OneCore.dll                                           765,952
+      \VoiceActivation\zh-CN\sidubm.table                                          40,508
+      \VoiceActivation\zh-CN\VoiceActivation_HW_zh-CN.dat                          88,524
+      \VoiceActivation\zh-CN\VoiceActivation_zh-CN.dat                            370,668
+
+  --- image: Windows\System32\Speech (exists: True)
+      \Common\sapi.dll                                                          1,515,520
+      \Common\zh-CN\sapi.dll.mui                                                   16,384
+      \Engines\SR\spsreng.dll                                                     933,888
+      \Engines\SR\spsrx.dll                                                        98,304
+      \Engines\SR\srloc.dll                                                       356,352
+      \Engines\SR\zh-CN\srloc.dll.mui                                               3,584
+      \Engines\TTS\MSTTSEngine.dll                                              1,045,824
+      \Engines\TTS\MSTTSLoc.dll                                                   557,056
+      \SpeechUX\sapi.cpl                                                          286,720
+      \SpeechUX\SpeechUX.dll                                                    1,536,000
+      \SpeechUX\SpeechUXPS.DLL                                                     53,248
+      \SpeechUX\SpeechUXWiz.exe                                                   475,136
+      \SpeechUX\SPTIP.DLL                                                         176,128
+      \SpeechUX\zh-CN\sapi.cpl.mui                                                 11,776
+      \SpeechUX\zh-CN\SpeechUX.dll.mui                                             44,544
+      \SpeechUX\zh-CN\SpeechUXRes.dll                                             106,496
+      \SpeechUX\zh-CN\SpeechUXWiz.exe.mui                                           2,560
+
+  --- image: Windows\System32\SpeechRuntime.exe (exists: False)
+
+=== D. Stage missing Speech_OneCore files ===
+  staged missing files: 0
+
+=== E. Dismount ===
+  dismounted OK
+
+=== F. Verify extracted LKG packages against image manifests (sanity) ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy
+     <Identity Name="MicrosoftWindows.LKG.AccountsService" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy
+     <Identity Name="MicrosoftWindows.LKG.DesktopSpotlight" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy
+     <Identity Name="MicrosoftWindows.LKG.IrisService" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy
+     <Identity Name="MicrosoftWindows.LKG.RulesEngine" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+     <Identity Name="MicrosoftWindows.LKG.SpeechRuntime" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy
+     <Identity Name="MicrosoftWindows.LKG.TwinSxS" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1000.26100.3470.0" ProcessorArchitecture="x64" />
+
+=== DONE 2026-09-26T10:53:49 ===

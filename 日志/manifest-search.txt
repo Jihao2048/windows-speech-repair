@@ -1,0 +1,123 @@
+﻿=== 1. All WinSxS components matching speech/lkg ===
+  amd64_microsoft-onecore-s..dlers-speechprivacy_31bf3856ad364e35_10.0.26100.1591_none_15e8704931adcf6e
+  amd64_microsoft-onecore-s..dlers-speechprivacy_31bf3856ad364e35_10.0.26100.8521_none_15e17b8d31b40a1e
+  amd64_microsoft-windows-speech-pal-desktop_31bf3856ad364e35_10.0.26100.8457_none_1bf0c8003a13b70b
+  amd64_microsoft-windows-speech-shell_31bf3856ad364e35_10.0.26100.8521_none_bdc1080ad0a9bd33
+  amd64_microsoft-windows-speech-userexperience_31bf3856ad364e35_10.0.26100.8521_none_b7c2f675fbd9b1b0
+  amd64_microsoft-windows-speech-windows_31bf3856ad364e35_10.0.26100.1_none_c1371de4bdfbfdb1
+  amd64_microsoft-windows-speechcommon-onecore_31bf3856ad364e35_10.0.26100.8521_none_0f121cdfcdd12de5
+  amd64_microsoft-windows-speechcommonnoia64_31bf3856ad364e35_10.0.26100.1_none_ff9d2f602c1cc7f1
+  amd64_microsoft-windows-speechcommon_31bf3856ad364e35_10.0.26100.8521_none_71bb4f0182b7f72f
+  amd64_microsoft-windows-speechdiagnostic_31bf3856ad364e35_10.0.26100.1150_none_a52b1cdbbe03f32a
+  amd64_microsoft-windows-speechdiagnostic_31bf3856ad364e35_10.0.26100.8115_none_a526b715be07fa04
+  amd64_microsoft-windows-speechengine-onecore_31bf3856ad364e35_10.0.26100.1150_none_7a1e3c8d8246e589
+  amd64_microsoft-windows-speechengine-onecore_31bf3856ad364e35_10.0.26100.8328_none_7a04f2e1825a8a7f
+  amd64_microsoft-windows-speechengine.resources_31bf3856ad364e35_10.0.26100.1_en-us_15c9c29a3ec0b98c
+  amd64_microsoft-windows-speechengine.resources_31bf3856ad364e35_10.0.26100.1_zh-cn_75502d0825e2939e
+  amd64_microsoft-windows-speechengine_31bf3856ad364e35_10.0.26100.1150_none_8aa56dad49cc2953
+  amd64_microsoft-windows-speechengine_31bf3856ad364e35_10.0.26100.5074_none_8ab1eaa549c29b30
+  amd64_microsoft-windows-speechrecognizer-zh-cn_31bf3856ad364e35_10.0.26100.1_none_d269f83f717856e0
+  amd64_microsoft-windows-texttospeech-en-us_31bf3856ad364e35_10.0.26100.1_none_5558685dab0f14fe
+  amd64_system.speech.resources_31bf3856ad364e35_4.0.15912.0_zh-cn_4c148a23cb567be4
+  amd64_system.speech_31bf3856ad364e35_4.0.15912.0_none_653a61d45e7e3ad9
+  amd64_system.speech_31bf3856ad364e35_4.0.15920.100_none_5a13c1ac9c8d01b1
+  amd64_userexperience-lkg_31bf3856ad364e35_10.0.26100.1742_none_3c72368675eae921
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_ar-sa_cc66599e382d44bf
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_da-dk_bae991e90c7b6e40
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_de-de_b81527250e51c2da
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_el-gr_60ab54b7fd672b68
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_en-gb_597d420002071ada
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_en-us_6105fd1dfd2fce9f
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_es-es_60d15a01fd56c044
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_es-mx_630847a7fbeaa3ef
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_fi-fi_ffec5eaef270b26e
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_fr-ca_fbff1a4af5013ccc
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_fr-fr_0388d000f028d6a6
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_it-it_edb0c647c75abc24
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_ja-jp_8fd64554ba75cdff
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_ko-kr_33402209ace69515
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_nb-no_1bd2a33e850bc0d1
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_nl-nl_1a11ee7c8637caa6
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_pl-pl_604e48fe6b5a385a
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_pt-br_62a233a269e3cc3e
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_pt-pt_6384030e69533c1a
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_qps-ploc_1fa1f4cf407aba9e
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_qps..ocm_b9ff2284a65933e7
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_ro-ro_a7bec9464fba0776
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_ru-ru_aa2714d24e34ca46
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_sv-se_4621ff47455dd4a1
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_th-th_eb2c20fa36a291e2
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_zh-cn_c08c678be451a8b1
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.1_zh-tw_c488a4e1e1c28521
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_ar-sa_6b2bb7a87fadbc2e
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_da-dk_59aeeff353fbe5af
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_de-de_56da852f55d23a49
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_el-gr_ff70b2c244e7a2d7
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_en-gb_f842a00a49879249
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_en-us_ffcb5b2844b0460e
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_es-es_ff96b80c44d737b3
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_es-mx_01cda5b2436b1b5e
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_fi-fi_9eb1bcb939f129dd
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_fr-ca_9ac478553c81b43b
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_fr-fr_a24e2e0b37a94e15
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_it-it_8c7624520edb3393
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_ja-jp_2e9ba35f01f6456e
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_ko-kr_d2058013f4670c84
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_nb-no_ba980148cc8c3840
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_nl-nl_b8d74c86cdb84215
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_pl-pl_ff13a708b2daafc9
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_pt-br_016791acb16443ad
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_pt-pt_02496118b0d3b389
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_ro-ro_46842750973a7ee5
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_ru-ru_48ec72dc95b541b5
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_sv-se_e4e75d518cde4c10
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_th-th_89f17f047e230951
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_zh-cn_5f51c5962bd22020
+  amd64_windows-media-speech-winrt.resources_31bf3856ad364e35_10.0.26100.8521_zh-tw_634e02ec2942fc90
+  amd64_windows-media-speech-winrt_31bf3856ad364e35_10.0.26100.8328_none_af491750f9eca89e
+  amd64_wpf-system.speech_31bf3856ad364e35_10.0.26100.1_none_7eb0989b851a6a8b
+  msil_system.speech.resources_31bf3856ad364e35_10.0.26100.1_zh-cn_66c6cf675d1cd6c1
+  msil_system.speech_31bf3856ad364e35_10.0.26100.1_none_aac1b81c30b72024
+  wow64_microsoft-windows-speech-pal-desktop_31bf3856ad364e35_10.0.26100.712_none_2ca13b4aa758a9bc
+  wow64_microsoft-windows-speech-pal-desktop_31bf3856ad364e35_10.0.26100.8328_none_264d2a986e6f2ab1
+  wow64_microsoft-windows-speech-shell_31bf3856ad364e35_10.0.26100.8521_none_c815b25d050a7f2e
+  wow64_microsoft-windows-speech-userexperience_31bf3856ad364e35_10.0.26100.1882_none_c1fd0eae304d8d18
+  wow64_microsoft-windows-speech-userexperience_31bf3856ad364e35_10.0.26100.1_none_235242bde8b9fc3c
+  wow64_microsoft-windows-speech-windows_31bf3856ad364e35_10.0.26100.1_none_cb8bc836f25cbfac
+  wow64_microsoft-windows-speechcommon-onecore_31bf3856ad364e35_10.0.26100.8521_none_1966c7320231efe0
+  wow64_microsoft-windows-speechcommon_31bf3856ad364e35_10.0.26100.8521_none_7c0ff953b718b92a
+  wow64_microsoft-windows-speechengine-onecore_31bf3856ad364e35_10.0.26100.1_none_e57f3ec96f4a5986
+  wow64_microsoft-windows-speechengine-onecore_31bf3856ad364e35_10.0.26100.8115_none_846e8119b6abae5e
+  wow64_microsoft-windows-speechengine.resources_31bf3856ad364e35_10.0.26100.1_en-us_201e6cec73217b87
+  wow64_microsoft-windows-speechengine.resources_31bf3856ad364e35_10.0.26100.1_zh-cn_7fa4d75a5a435599
+  wow64_microsoft-windows-speechengine_31bf3856ad364e35_10.0.26100.5074_none_950694f77e235d2b
+  wow64_microsoft-windows-speechengine_31bf3856ad364e35_10.0.26100.712_none_9b34df05b72a0f4f
+  wow64_windows-media-speech-winrt_31bf3856ad364e35_10.0.26100.1591_none_b98fb5ff2e56b464
+  wow64_windows-media-speech-winrt_31bf3856ad364e35_10.0.26100.8328_none_b99dc1a32e4d6a99
+  x86_wpf-system.speech_31bf3856ad364e35_10.0.26100.1_none_2291fd17ccbcf955
+
+=== 2. AppxManifest.xml files in WinSxS mentioning SpeechRuntime ===
+  total AppxManifest.xml under WinSxS: 99
+  CANDIDATE(path): C:\Windows\WinSxS\amd64_userexperience-lkg_31bf3856ad364e35_10.0.26100.1742_none_3c72368675eae921\LKG.AccountsService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\amd64_userexperience-lkg_31bf3856ad364e35_10.0.26100.1742_none_3c72368675eae921\LKG.IrisService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\0c0d72145f4ddd01951600001c10e01c\LKG.IrisService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\414c99db5e4ddd01420b00001c10e01c\LKG.IrisService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\857f98db5e4ddd01400b00001c10e01c\LKG.AccountsService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\9007a053eb4cdd01420b0000bc6dd46d\LKG.IrisService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\9d7071145f4ddd01931600001c10e01c\LKG.AccountsService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\bbbc46d5eb4cdd01400b00002c096c23\LKG.AccountsService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\cf7d9f53eb4cdd01400b0000bc6dd46d\LKG.AccountsService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\ddbbdf89ef4cdd018b1f00002c09b423\LKG.AccountsService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\ee7ee089ef4cdd018d1f00002c09b423\LKG.IrisService\appxmanifest.xml
+  CANDIDATE(path): C:\Windows\WinSxS\Temp\InFlight\f16c47d5eb4cdd01420b00002c096c23\LKG.IrisService\appxmanifest.xml
+  path-based candidates: 12
+
+=== 3. grep content for SpeechRuntime (limited scan) ===
+  content hits: 0
+
+=== 4. LKG TwinSxS / servicing related dirs ===
+  C:\Windows\SystemApps\LKG exists: True
+  C:\Windows\servicing\LCU exists: False
+  C:\Windows\SoftwareDistribution\Download exists: True
+
+=== 5. StateRepository DB ===

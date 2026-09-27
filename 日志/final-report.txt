@@ -1,0 +1,37 @@
+﻿=== FINAL VERIFICATION 2026-09-26T12:01:52 ===
+
+=== 1. Voice engine payload (must be intact) ===
+  MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy         files=13
+  MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy        files=21
+  MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy             files=13
+  MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy             files=12
+  MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy           files=22
+  MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy                 files=12
+
+=== 2. Windows Update history (last 12) ===
+  total history entries: 7
+  [2026-09-26] result=0x00000002 Windows Security platform更新 - KB5007651（版本10.0.29628.1000）
+  [2026-09-26] result=0x00000004 2026-06 安全更新(KB5094126) (26200.8655)
+  [2026-09-25] result=0x00000002 2026-09 .NET Framework 安全更新 (KB5126052)
+  [2026-09-25] result=0x00000002 Microsoft Corporation AudioProcessingObject Driver Update (1.0.4.7057)
+  [2026-09-25] result=0x00000002 Lenovo System Driver Update (15.11.30.14)
+  [2026-09-25] result=0x00000004 Windows Security platform更新 - KB5007651（版本10.0.29628.1000）
+  [2026-09-25] result=0x00000004 Windows 恶意软件删除工具 x64 - v5.145 (KB890830)
+
+=== 3. Is a cumulative update pending? ===
+  - 2026-06 安全更新(KB5094126) (26200.8655)
+
+=== 4. Component store health now ===
+     Error: 740
+     Elevated permissions are required to run DISM. 
+     Use an elevated command prompt to complete these tasks.
+
+=== 5. Voice typing readiness ===
+  online speech consent HasAccepted = 1
+  MicrosoftWindows.61869720.Voiess 1000.26100.8521.0 Ok
+  MicrosoftWindows.61869722.Speion 1000.26100.8521.0 Ok
+  MicrosoftWindows.61869836.InpApp 1000.26100.8521.0 Ok
+  MicrosoftWindows.Speech.zh-CN.1 1.0.23.0 Ok
+  SpeechRuntime payload: 22 files
+
+=== DONE 2026-09-26T12:02:21 ===

@@ -1,0 +1,136 @@
+﻿=== HUNT WU / WSUS LEFTOVERS 2026-09-26T11:15:14 ===
+
+=== 1. WindowsUpdate client keys ===
+  --- HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate
+     (not present)
+  --- HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update\LastOnlineScanTimeForAppCategory
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update\LastOnlineScanTimeForAppCategory\855E8A7C-ECB4-4CA3-B045-1DFA50104289
+         00C2490A-EF1D-43C9-BDBA-B84ECC77D2EA    REG_SZ    2026-09-25 13:02:26
+         051F560E-5E9B-4DAD-8B2E-FA5E0B05A480    REG_SZ    2026-09-25 13:02:26
+         080A755B-9846-4C66-BD6A-A48FE209B4EC    REG_SZ    2026-09-25 13:02:26
+         0BBFD453-65EF-4B83-A7EF-9098CF5D98A1    REG_SZ    2025-03-03 07:18:06
+         0CFABDCB-E35F-4EE5-8CA1-76660EA27185    REG_SZ    2026-09-25 13:02:26
+         0DC30F80-7893-44E1-856F-0064E29BF84E    REG_SZ    2026-09-25 13:02:26
+         104CC65F-56A0-4415-BBA7-4BBE85CE5B4C    REG_SZ    2025-01-24 05:07:21
+         160151E8-D5C5-4A47-983C-7BD1240021A5    REG_SZ    2026-09-25 13:02:26
+         163FC73E-D134-4AFD-A13C-44A827A48618    REG_SZ    2026-09-25 13:02:26
+         16DB93BF-8748-449A-96BA-E9ED3A5F872D    REG_SZ    2026-09-25 13:02:26
+         1A36FD17-5161-4651-AE2D-13384E427EA8    REG_SZ    2026-09-25 13:02:26
+         1E4F5D0E-4B36-4F9B-BFBC-9FEC63FD0F1E    REG_SZ    2026-09-25 13:02:26
+         1E8FFFB1-11FE-4D32-922D-B869F51D0739    REG_SZ    2026-09-25 13:02:26
+         20F45068-02FC-4701-9385-53AC85D8EAF9    REG_SZ    2026-09-25 13:02:26
+         214308D7-4262-449D-A78D-9A2306144B11    REG_SZ    2026-09-25 13:02:26
+         2477BCCD-5086-4C6D-BF45-0D09C4EDF9E7    REG_SZ    2025-03-03 08:11:26
+         253402B1-6356-4131-B1CD-F4F3B6D2B03C    REG_SZ    2026-09-25 13:02:26
+         2830B57A-D6C7-4C7A-873E-AD2365CDF2BF    REG_SZ    2026-09-25 13:02:26
+         2FF93C20-14BA-4CBD-BD81-0BC49484FDC6    REG_SZ    2026-09-25 13:02:26
+         3ECE63C1-AE51-4414-9064-B4FF1E0A9017    REG_SZ    2026-09-25 13:02:26
+         421BA874-F903-4965-9B82-D60F3BA3CAE0    REG_SZ    2026-09-25 13:02:26
+         454A759B-FF5B-4A79-80D3-1CF15EBA0908    REG_SZ    2026-09-25 13:02:26
+         54D3495E-5010-4C87-B28C-30422EBA7D77    REG_SZ    2026-09-25 13:02:26
+         579FC437-D398-411C-A6C5-D01FD4523B94    REG_SZ    2026-09-25 13:02:26
+         5E19CC61-8994-4797-BDC7-C21263F6282B    REG_SZ    2026-09-25 13:02:26
+         5E60C346-7F52-4A6F-98C0-70FEF2DD1D01    REG_SZ    2026-09-25 13:02:26
+         60D82DC7-9037-4295-90E2-1DFF4293995A    REG_SZ    2026-09-25 13:02:26
+         613F6011-ADAC-4BD6-8C3E-3679DFA89FC5    REG_SZ    2026-09-25 13:02:26
+         64293252-5926-453C-9494-2D4021F1C78D    REG_SZ    2026-09-25 13:02:26
+         64A79953-CF0B-44F9-B5C4-EE5DF3A15C63    REG_SZ    2026-09-25 13:02:26
+         64B22DF1-5A9C-4C88-AA1F-42CEFAF8B281    REG_SZ    2026-09-25 13:02:26
+         65B58C5C-5C7E-4B72-9D9F-9BDD15C506B3    REG_SZ    2026-09-25 13:02:26
+         6A90DDFD-D71A-4980-8293-AF9EEFE98A73    REG_SZ    2026-09-25 13:02:26
+         733893B8-533D-4292-BF27-23D218B39A95    REG_SZ    2026-09-25 13:02:26
+         735564D6-1FE8-418F-BDEF-0CD681AEED48    REG_SZ    2025-02-21 11:44:07
+         75980D77-AD1E-4C90-904E-6A75B59743E4    REG_SZ    2026-09-25 13:02:26
+         7CB04C00-F176-41A2-877C-D49DE157B0C3    REG_SZ    2026-09-25 13:02:26
+         7E8DD96B-6ED8-48D7-A6D9-C48A656183ED    REG_SZ    2025-10-25 01:45:13
+  --- HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\UX\Settings
+     错误: 系统找不到指定的注册表项或值。
+  --- HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Setup
+     错误: 系统找不到指定的注册表项或值。
+  --- HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Services
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Services\855E8A7C-ECB4-4CA3-B045-1DFA50104289
+         CountryCode    REG_SZ    88
+         RegisteredWithAU    REG_DWORD    0x0
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Services\8B24B027-1DEE-BABB-9A95-3517DFB9C552
+         CountryCode    REG_SZ    CN
+         RegisteredWithAU    REG_DWORD    0x0
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Services\9482F4B4-E343-43B6-B170-9A65BC822C77
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Services\LoadShedding
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Services\Pending
+  --- HKLM\SYSTEM\CurrentControlSet\Services\wuauserv
+     (not present)
+  --- HKLM\SYSTEM\CurrentControlSet\Services\wuauserv\Parameters
+     HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wuauserv\Parameters
+         ServiceDll    REG_EXPAND_SZ    %systemroot%\system32\wuaueng.dll
+         ServiceDllUnloadOnStop    REG_DWORD    0x1
+         ServiceMain    REG_SZ    WUServiceMain
+
+=== 2. Search whole HKLM\SOFTWARE for the fake WSUS strings ===
+  needle: .
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020800-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020803-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020812-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020820-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020821-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020827-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020830-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020832-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020833-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020906-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00020907-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{000209F0-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{000209F4-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{000209F5-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{000209FE-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{000209FF-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00024500-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00024502-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00024505-0016-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0002DF01-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0002DF02-0000-0000-C000-000000000046}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0039FFEC-A022-4232-8274-6B34787BFC27}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{00f2b433-44e4-4d88-b2b0-2698a0a91dba}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{0207C0AD-563B-4919-A967-E0782FFC35D1}\.32
+     HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{021E4F06-9DCC-49AD-88CF-ECC2DA314C8A}\.32
+  needle: .
+     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UpdatePolicy\GPCache\CacheSet001\WindowsUpdate
+         UpdateServiceUrlAlternate    REG_SZ    .
+     搜索结束: 找到 1 匹配。
+
+=== 3. Search HKLM\SYSTEM for the fake WSUS strings ===
+  needle: .
+     HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters
+         .TimeoutInSec    REG_DWORD    0xf
+     搜索结束: 找到 1 匹配。
+  needle: .
+     搜索结束: 找到 0 匹配。
+
+=== 4. BITS / DO / UsoSvc config ===
+  BITS                                     Start=3
+  UsoSvc                                   Start=2
+  DoSvc                                    Start=2
+  WaaSMedicSvc                             Start=3
+  TokenBroker                              Start=3
+
+=== 5. Windows Update medic / service state ===
+  wuauserv             Running    Automatic
+  BITS                 Stopped    Manual
+  UsoSvc               Running    Automatic
+  DoSvc                Running    Automatic
+  WaaSMedicSvc         Stopped    Manual
+  cryptsvc             Running    Automatic
+  TrustedInstaller     Stopped    Manual
+
+=== 6. Can the machine reach the real update endpoints? ===
+  fe2.update.microsoft.com -> 134.33.4.17, 128.85.113.135
+  tlu.dl.delivery.mp.microsoft.com -> 150.139.158.146, 140.249.157.6
+  sls.update.microsoft.com -> 135.233.95.144
+  download.windowsupdate.com -> 140.249.157.54, 140.249.153.85
+  HTTPS to fe2.update.microsoft.com: HTTP 200
+
+=== 7. Proxy settings again (WU uses WinHTTP) ===
+     褰撳墠鐨?WinHTTP 浠ｇ悊鏈嶅姟鍣ㄨ缃?
+         鐩存帴璁块棶(娌℃湁浠ｇ悊鏈嶅姟鍣?銆?
+
+=== DONE 2026-09-26T11:22:12 ===

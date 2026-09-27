@@ -1,0 +1,65 @@
+﻿=== APPLY: RESTORE LKG.SpeechRuntime PACKAGE 2026-09-26T10:54:20 ===
+
+=== 1. Also check if the machine store has Cognitive Services speech payloads ===
+  Microsoft.CognitiveServices.Speech.core.dll -> 2
+     C:\Windows\WinSxS\amd64_userexperience-shared_31bf3856ad364e35_10.0.26100.8524_none_b2af4d3b70d66bd3\Microsoft.CognitiveServices.Speech.core.dll
+     C:\Windows\WinSxS\amd64_userexperience-shared_31bf3856ad364e35_10.0.26100.8524_none_b2af4d3b70d66bd3\3218D74F\Microsoft.CognitiveServices.Speech.core.dll
+  FPIEProcessor.dll -> 2
+     C:\Windows\WinSxS\amd64_userexperience-shared_31bf3856ad364e35_10.0.26100.8524_none_b2af4d3b70d66bd3\FPIEProcessor.dll
+     C:\Windows\WinSxS\amd64_userexperience-shared_31bf3856ad364e35_10.0.26100.8524_none_b2af4d3b70d66bd3\F156DA7F\FPIEProcessor.dll
+  Microsoft.CognitiveServices.Speech.extension.onnxruntime.dll -> 2
+     C:\Windows\WinSxS\amd64_userexperience-shared_31bf3856ad364e35_10.0.26100.8524_none_b2af4d3b70d66bd3\Microsoft.CognitiveServices.Speech.extension.onnxruntime.dll
+     C:\Windows\WinSxS\amd64_userexperience-shared_31bf3856ad364e35_10.0.26100.8524_none_b2af4d3b70d66bd3\82FEA24A\Microsoft.CognitiveServices.Speech.extension.onnxruntime.dll
+
+=== 2. Copy package payload into C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy ===
+  source exists: True
+  target exists: True
+  files now in target: 22
+     Assets                                                                  1
+     MASmodels                                                               1
+     microsoft.system.package.metadata                                       1
+     pris                                                                    1
+     appxblockmap.xml                                                      405
+     appxmanifest.xml                                                   10,696
+     appxsignature.p7x                                                   9,649
+     coreAppActivation.SCCD                                             17,047
+     FPIEProcessor.dll                                               1,709,624
+     Microsoft.CognitiveServices.Speech.core.dll                     2,305,080
+     Microsoft.CognitiveServices.Speech.extension.audio.sys.dll        148,536
+     Microsoft.CognitiveServices.Speech.extension.embedded.sr.dll      273,464
+     Microsoft.CognitiveServices.Speech.extension.embedded.sr.runtime.dll    4,847,672
+     Microsoft.CognitiveServices.Speech.extension.embedded.tts.dll    6,066,744
+     Microsoft.CognitiveServices.Speech.extension.lu.dll               374,344
+     Microsoft.CognitiveServices.Speech.extension.mas.dll            3,128,376
+     Microsoft.CognitiveServices.Speech.extension.onnxruntime.dll    8,285,768
+     Microsoft.CognitiveServices.Speech.extension.telemetry.dll      1,570,888
+     resources.pri                                                      24,152
+
+=== 3. Fix permissions on the package folder to match sibling system apps ===
+  reference ACL owner: NT SERVICE\TrustedInstaller
+     C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy: 拒绝访问。
+     已成功处理 26 个文件; 处理 1 个文件时失败
+  icacls reset done
+
+=== 4. Register the package for the current user ===
+  manifest exists: True
+  REGISTER FAILED: 部署失败，原因是 HRESULT: 0x80073CF9, 无法安装。请联系你的软件供应商。 (异常来自 HRESULT:0x80073CF9)
+正在拒绝从 appxmanifest.xml 进行注册的请求，因为部件清单(manifest)没有位于程序包根目录中。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0004-9a9f-63885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0004-9a9f-63885c4ddd01
+
+
+=== 5. Registration state after attempt ===
+  packages for current user: 0
+
+  all-users state:
+     MicrosoftWindows.LKG.SpeechRuntime  1000.26100.3775.0  Ok
+        Installed
+        Installed
+        Installed
+        Installed(pending removal)
+
+=== 6. Restart TextInputHost ===
+  TextInputHost pid 15504
+
+=== DONE 2026-09-26T10:55:29 ===

@@ -1,0 +1,79 @@
+﻿=== STAGE 2: REGISTER SPEECH RUNTIME + ENABLE ONLINE SPEECH 2026-09-26T10:39:16 ===
+
+=== 1. Current state before changes ===
+  speech runtime packages for current user: 0
+
+=== 2. Enable online speech recognition consent (HKCU) ===
+  HasAccepted = 1
+
+=== 3. Re-register SpeechRuntime package for current user (RegisterByFamilyName) ===
+  --- MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy
+      FAILED: 部署失败，原因是 HRESULT: 0x80073CF0, 无法打开包。
+
+错误 0x80070002: 从位置 AppxManifest.xml 中打开文件失败，错误为: 系统找不到指定的文件。
+。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0007-5fcb-5f885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0007-5fcb-5f885c4ddd01
+
+  --- MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy
+      FAILED: 部署失败，原因是 HRESULT: 0x80073CF0, 无法打开包。
+
+错误 0x80070002: 从位置 AppxManifest.xml 中打开文件失败，错误为: 系统找不到指定的文件。
+。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-000a-0cf8-5d885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-000a-0cf8-5d885c4ddd01
+
+  --- MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy
+      FAILED: 部署失败，原因是 HRESULT: 0x80073CF0, 无法打开包。
+
+错误 0x80070002: 从位置 AppxManifest.xml 中打开文件失败，错误为: 系统找不到指定的文件。
+。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0008-49f9-5c885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0008-49f9-5c885c4ddd01
+
+  --- MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy
+      FAILED: 部署失败，原因是 HRESULT: 0x80073CF0, 无法打开包。
+
+错误 0x80070002: 从位置 AppxManifest.xml 中打开文件失败，错误为: 系统找不到指定的文件。
+。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0004-c524-5d885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0004-c524-5d885c4ddd01
+
+  --- MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy
+      FAILED: 部署失败，原因是 HRESULT: 0x80073CF0, 无法打开包。
+
+错误 0x80070002: 从位置 AppxManifest.xml 中打开文件失败，错误为: 系统找不到指定的文件。
+。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-0000-c82f-5a885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-0000-c82f-5a885c4ddd01
+
+  --- MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy
+      FAILED: 部署失败，原因是 HRESULT: 0x80073CF0, 无法打开包。
+
+错误 0x80070002: 从位置 AppxManifest.xml 中打开文件失败，错误为: 系统找不到指定的文件。
+。
+
+注意: 有关其他信息，请在事件日志中查找 [ActivityId] 88529e63-4d5c-000a-19f8-5d885c4ddd01，或使用命令行 Get-AppPackageLog -ActivityID 88529e63-4d5c-000a-19f8-5d885c4ddd01
+
+
+=== 4. State after registration attempt ===
+  speech runtime packages for current user: 0
+
+=== 5. Re-register speech language packs ===
+  MicrosoftWindows.Voice.zh-CN.XiaoxiaoHD.1 -> manifest exists: True
+     register OK
+  MicrosoftWindows.Speech.zh-CN.1 -> manifest exists: True
+     register OK
+
+=== 6. Restart TextInputHost so it picks up changes ===
+  stopping TextInputHost pid 22036
+  TextInputHost restarted, pid 16648
+
+=== 7. Voice typing related packages for current user ===
+  MicrosoftWindows.61869720.Voiess  1000.26100.8521.0  Ok
+  MicrosoftWindows.61869721.Livtop  1000.26100.8521.0  Ok
+  MicrosoftWindows.61869722.Speion  1000.26100.8521.0  Ok
+  MicrosoftWindows.61869836.InpApp  1000.26100.8521.0  Ok
+  MicrosoftWindows.Speech.zh-CN.1  1.0.23.0  Ok
+
+=== STAGE 2 DONE 2026-09-26T10:39:21 ===
